@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.png" alt="CARTOGRAPH — Select · Resolve · Refuse" width="100%" />
+</p>
+
 # CARTOGRAPH Reproducibility Package
 
 This folder contains the code and frozen result artifacts needed to reproduce
