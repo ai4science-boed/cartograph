@@ -1,0 +1,940 @@
+{
+  "timestamp_utc": "2026-03-28T07:01:29.031292+00:00",
+  "identification_margin": 0.05,
+  "prior_var": 1.0,
+  "noise_var": 1.0,
+  "fallback_to_weakest": false,
+  "method_sequences": {
+    "cartograph": [
+      "E1",
+      "E2",
+      "E4",
+      "E5",
+      "E3",
+      "E7",
+      "E6"
+    ],
+    "aopt": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7"
+    ],
+    "disagreement": [
+      "E2",
+      "E1",
+      "E6",
+      "E7",
+      "E5",
+      "E3",
+      "E4"
+    ]
+  },
+  "summary_rows": [
+    {
+      "truth": "absorption_variant",
+      "family": "B-family perturbed truth",
+      "oracle": "B",
+      "cartograph": 1,
+      "aopt": 1,
+      "disagreement": 2,
+      "random_expected": 4.0
+    },
+    {
+      "truth": "absorption_variant_slow",
+      "family": "B-family slow transit",
+      "oracle": "B",
+      "cartograph": 1,
+      "aopt": 1,
+      "disagreement": 1,
+      "random_expected": 1.1428571428571428
+    },
+    {
+      "truth": "distribution_variant_easy",
+      "family": "C-family perturbed truth",
+      "oracle": "C",
+      "cartograph": 0,
+      "aopt": 0,
+      "disagreement": 0,
+      "random_expected": 0.0
+    },
+    {
+      "truth": "distribution_variant_hard",
+      "family": "C-family perturbed truth",
+      "oracle": "C",
+      "cartograph": 1,
+      "aopt": 1,
+      "disagreement": 1,
+      "random_expected": 1.6
+    },
+    {
+      "truth": "distribution_variant_subtle",
+      "family": "C-family subtle distribution",
+      "oracle": "C",
+      "cartograph": 1,
+      "aopt": 1,
+      "disagreement": 1,
+      "random_expected": 2.4
+    },
+    {
+      "truth": "mixed_absorption",
+      "family": "D-family absorption-leaning mix",
+      "oracle": "A",
+      "cartograph": 2,
+      "aopt": 2,
+      "disagreement": 2,
+      "random_expected": 5.333333333333333
+    },
+    {
+      "truth": "mixed_balanced",
+      "family": "D-family balanced mix",
+      "oracle": "A",
+      "cartograph": 2,
+      "aopt": 2,
+      "disagreement": 2,
+      "random_expected": 5.333333333333333
+    }
+  ],
+  "scenario_details": {
+    "absorption_variant": {
+      "family": "B-family perturbed truth",
+      "truth_params": {
+        "k_tr": 1.45,
+        "k_a": 0.88,
+        "k_e": 0.18,
+        "V": 19.2
+      },
+      "oracle_model": "B",
+      "full_residuals": {
+        "A": 2.0575697655318828,
+        "B": 0.7928274499570258,
+        "C": 3.613908932948265
+      },
+      "cartograph_history": [
+        {
+          "best_model": "A",
+          "residuals": {
+            "A": 0.12871622200060767,
+            "B": 0.29927617559561687,
+            "C": 0.5490901349798448
+          },
+          "gap": 0.1705599535950092,
+          "identified": false,
+          "round": 0,
+          "observed": [
+            "e0"
+          ]
+        },
+        {
+          "best_model": "B",
+          "residuals": {
+            "A": 2.0058888894950924,
+            "B": 0.34559231066917867,
+            "C": 2.1000863857094356
+          },
+          "gap": 1.6602965788259136,
+          "identified": true,
+          "round": 1,
+          "observed": [
+            "e0",
+            "E1"
+          ]
+        }
+      ],
+      "aopt_history": [
+        {
+          "best_model": "A",
+          "residuals": {
+            "A": 0.12871622200060767,
+            "B": 0.29927617559561687,
+            "C": 0.5490901349798448
+          },
+          "gap": 0.1705599535950092,
+          "identified": false,
+          "round": 0,
+          "observed": [
+            "e0"
+          ]
+        },
+        {
+          "best_model": "B",
+          "residuals": {
+            "A": 2.0058888894950924,
+            "B": 0.34559231066917867,
+            "C": 2.1000863857094356
+          },
+          "gap": 1.6602965788259136,
+          "identified": true,
+          "round": 1,
+          "observed": [
+            "e0",
+            "E1"
+          ]
+        }
+      ],
+      "disagreement_history": [
+        {
+          "best_model": "A",
+          "residuals": {
+            "A": 0.12871622200060767,
+            "B": 0.29927617559561687,
+            "C": 0.5490901349798448
+          },
+          "gap": 0.1705599535950092,
+          "identified": false,
+          "round": 0,
+          "observed": [
+            "e0"
+          ]
+        },
+        {
+          "best_model": "A",
+          "residuals": {
+            "A": 0.32864518202532467,
+            "B": 0.3454809804629168,
+            "C": 2.872273342245209
+          },
+          "gap": 0.016835798437592142,
+          "identified": false,
+          "round": 1,
+          "observed": [
+            "e0",
+            "E2"
+          ]
+        },
+        {
+          "best_model": "B",
+          "residuals": {
+            "A": 2.028553678575503,
+            "B": 0.38629641957458255,
+            "C": 3.5155109164504665
+          },
+          "gap": 1.6422572590009203,
+          "identified": true,
+          "round": 2,
+          "observed": [
+            "e0",
+            "E2",
+            "E1"
+          ]
+        }
+      ]
+    },
+    "distribution_variant_easy": {
+      "family": "C-family perturbed truth",
+      "truth_params": {
+        "k_a": 0.68,
+        "k_10": 0.16,
+        "k_12": 0.24,
+        "k_21": 0.3,
+        "V_c": 18.4
+      },
+      "oracle_model": "C",
+      "full_residuals": {
+        "A": 3.143095623755143,
+        "B": 3.5776639589714434,
+        "C": 0.43578582122262655
+      },
+      "cartograph_history": [
+        {
+          "best_model": "C",
+          "residuals": {
+            "A": 0.5914979562824332,
+            "B": 0.41398589797594487,
+            "C": 0.15636376484415893
+          },
+          "gap": 0.25762213313178595,
+          "identified": true,
+          "round": 0,
+          "observed": [
+            "e0"
+          ]
+        }
+      ],
+      "aopt_history": [
+        {
+          "best_model": "C",
+          "residuals": {
+            "A": 0.5914979562824332,
+            "B": 0.41398589797594487,
+            "C": 0.15636376484415893
+          },
+          "gap": 0.25762213313178595,
+          "identified": true,
+          "round": 0,
+          "observed": [
+            "e0"
+          ]
+        }
+      ],
+      "disagreement_history": [
+        {
+          "best_model": "C",
+          "residuals": {
+            "A": 0.5914979562824332,
+            "B": 0.41398589797594487,
+            "C": 0.15636376484415893
+          },
+          "gap": 0.25762213313178595,
+          "identified": true,
+          "round": 0,
+          "observed": [
+            "e0"
+          ]
+        }
+      ]
+    },
+    "distribution_variant_hard": {
+      "family": "C-family perturbed truth",
+      "truth_params": {
+        "k_a": 0.75,
+        "k_10": 0.16,
+        "k_12": 0.24,
+        "k_21": 0.28,
+        "V_c": 18.2
+      },
+      "oracle_model": "C",
+      "full_residuals": {
+        "A": 3.408695452989509,
+        "B": 3.848404367453444,
+        "C": 1.5104045521012899
+      },
+      "cartograph_history": [
+        {
+          "best_model": "C",
+          "residuals": {
+            "A": 1.5709556140741383,
+            "B": 1.5285220441116913,
+            "C": 1.5002835453295182
+          },
+          "gap": 0.028238498782173105,
+          "identified": false,
+          "round": 0,
+          "observed": [
+            "e0"
+          ]
+        },
+        {
+          "best_model": "C",
+          "residuals": {
+            "A": 1.6203449257526057,
+            "B": 2.526744710977845,
+            "C": 1.501023076886063
+          },
+          "gap": 0.11932184886654262,
+          "identified": true,
+          "round": 1,
+          "observed": [
+            "e0",
+            "E1"
+          ]
+        }
+      ],
+      "aopt_history": [
+        {
+          "best_model": "C",
+          "residuals": {
+            "A": 1.5709556140741383,
+            "B": 1.5285220441116913,
+            "C": 1.5002835453295182
+          },
+          "gap": 0.028238498782173105,
+          "identified": false,
+          "round": 0,
+          "observed": [
+            "e0"
+          ]
+        },
+        {
+          "best_model": "C",
+          "residuals": {
+            "A": 1.6203449257526057,
+            "B": 2.526744710977845,
+            "C": 1.501023076886063
+          },
+          "gap": 0.11932184886654262,
+          "identified": true,
+          "round": 1,
+          "observed": [
+            "e0",
+            "E1"
+          ]
+        }
+      ],
+      "disagreement_history": [
+        {
+          "best_model": "C",
+          "residuals": {
+            "A": 1.5709556140741383,
+            "B": 1.5285220441116913,
+            "C": 1.5002835453295182
+          },
+          "gap": 0.028238498782173105,
+          "identified": false,
+          "round": 0,
+          "observed": [
+            "e0"
+          ]
+        },
+        {
+          "best_model": "C",
+          "residuals": {
+            "A": 3.18283294225654,
+            "B": 3.176425091966131,
+            "C": 1.500440137219983
+          },
+          "gap": 1.6759849547461483,
+          "identified": true,
+          "round": 1,
+          "observed": [
+            "e0",
+            "E2"
+          ]
+        }
+      ]
+    },
+    "mixed_balanced": {
+      "family": "D-family balanced mix",
+      "truth_params": {
+        "k_tr": 1.6,
+        "k_a": 1.0,
+        "k_10": 0.16,
+        "k_12": 0.2,
+        "k_21": 0.25,
+        "V_c": 18.5
+      },
+      "oracle_model": "A",
+      "full_residuals": {
+        "A": 1.077021168390354,
+        "B": 2.192918811039775,
+        "C": 2.767104489201768
+      },
+      "cartograph_history": [
+        {
+          "best_model": "C",
+          "residuals": {
+            "A": 0.31239601307857273,
+            "B": 0.14163024506382133,
+            "C": 0.14132618254673637
+          },
+          "gap": 0.000304062517084952,
+          "identified": false,
+          "round": 0,
+          "observed": [
+            "e0"
+          ]
+        },
+        {
+          "best_model": "C",
+          "residuals": {
+            "A": 0.5126295291670805,
+            "B": 2.017080065620122,
+            "C": 0.1550997469451997
+          },
+          "gap": 0.3575297822218808,
+          "identified": false,
+          "round": 1,
+          "observed": [
+            "e0",
+            "E1"
+          ]
+        },
+        {
+          "best_model": "A",
+          "residuals": {
+            "A": 0.6167769314861729,
+            "B": 2.0676453437956153,
+            "C": 2.7546178086569553
+          },
+          "gap": 1.4508684123094424,
+          "identified": true,
+          "round": 2,
+          "observed": [
+            "e0",
+            "E1",
+            "E2"
+          ]
+        }
+      ],
+      "aopt_history": [
+        {
+          "best_model": "C",
+          "residuals": {
+            "A": 0.31239601307857273,
+            "B": 0.14163024506382133,
+            "C": 0.14132618254673637
+          },
+          "gap": 0.000304062517084952,
+          "identified": false,
+          "round": 0,
+          "observed": [
+            "e0"
+          ]
+        },
+        {
+          "best_model": "C",
+          "residuals": {
+            "A": 0.5126295291670805,
+            "B": 2.017080065620122,
+            "C": 0.1550997469451997
+          },
+          "gap": 0.3575297822218808,
+          "identified": false,
+          "round": 1,
+          "observed": [
+            "e0",
+            "E1"
+          ]
+        },
+        {
+          "best_model": "A",
+          "residuals": {
+            "A": 0.6167769314861729,
+            "B": 2.0676453437956153,
+            "C": 2.7546178086569553
+          },
+          "gap": 1.4508684123094424,
+          "identified": true,
+          "round": 2,
+          "observed": [
+            "e0",
+            "E1",
+            "E2"
+          ]
+        }
+      ],
+      "disagreement_history": [
+        {
+          "best_model": "C",
+          "residuals": {
+            "A": 0.31239601307857273,
+            "B": 0.14163024506382133,
+            "C": 0.14132618254673637
+          },
+          "gap": 0.000304062517084952,
+          "identified": false,
+          "round": 0,
+          "observed": [
+            "e0"
+          ]
+        },
+        {
+          "best_model": "A",
+          "residuals": {
+            "A": 0.463913804522806,
+            "B": 0.4760298340592222,
+            "C": 2.7538766185399113
+          },
+          "gap": 0.012116029536416217,
+          "identified": false,
+          "round": 1,
+          "observed": [
+            "e0",
+            "E2"
+          ]
+        },
+        {
+          "best_model": "A",
+          "residuals": {
+            "A": 0.6167769314861727,
+            "B": 2.0676453437956157,
+            "C": 2.7546178086569557
+          },
+          "gap": 1.4508684123094429,
+          "identified": true,
+          "round": 2,
+          "observed": [
+            "e0",
+            "E2",
+            "E1"
+          ]
+        }
+      ]
+    },
+    "mixed_absorption": {
+      "family": "D-family absorption-leaning mix",
+      "truth_params": {
+        "k_tr": 1.8,
+        "k_a": 1.0,
+        "k_10": 0.16,
+        "k_12": 0.15,
+        "k_21": 0.25,
+        "V_c": 19.5
+      },
+      "oracle_model": "A",
+      "full_residuals": {
+        "A": 0.8407677938094932,
+        "B": 2.1093724815753983,
+        "C": 2.828395920359715
+      },
+      "cartograph_history": [
+        {
+          "best_model": "B",
+          "residuals": {
+            "A": 0.28281673437839194,
+            "B": 0.11931647524726448,
+            "C": 0.16587866264008955
+          },
+          "gap": 0.04656218739282507,
+          "identified": false,
+          "round": 0,
+          "observed": [
+            "e0"
+          ]
+        },
+        {
+          "best_model": "C",
+          "residuals": {
+            "A": 0.4685118033840168,
+            "B": 2.0122607402083164,
+            "C": 0.16981289404457836
+          },
+          "gap": 0.29869890933943843,
+          "identified": false,
+          "round": 1,
+          "observed": [
+            "e0",
+            "E1"
+          ]
+        },
+        {
+          "best_model": "A",
+          "residuals": {
+            "A": 0.5598568916840101,
+            "B": 2.0554084034190327,
+            "C": 2.755605476486174
+          },
+          "gap": 1.4955515117350227,
+          "identified": true,
+          "round": 2,
+          "observed": [
+            "e0",
+            "E1",
+            "E2"
+          ]
+        }
+      ],
+      "aopt_history": [
+        {
+          "best_model": "B",
+          "residuals": {
+            "A": 0.28281673437839194,
+            "B": 0.11931647524726448,
+            "C": 0.16587866264008955
+          },
+          "gap": 0.04656218739282507,
+          "identified": false,
+          "round": 0,
+          "observed": [
+            "e0"
+          ]
+        },
+        {
+          "best_model": "C",
+          "residuals": {
+            "A": 0.4685118033840168,
+            "B": 2.0122607402083164,
+            "C": 0.16981289404457836
+          },
+          "gap": 0.29869890933943843,
+          "identified": false,
+          "round": 1,
+          "observed": [
+            "e0",
+            "E1"
+          ]
+        },
+        {
+          "best_model": "A",
+          "residuals": {
+            "A": 0.5598568916840101,
+            "B": 2.0554084034190327,
+            "C": 2.755605476486174
+          },
+          "gap": 1.4955515117350227,
+          "identified": true,
+          "round": 2,
+          "observed": [
+            "e0",
+            "E1",
+            "E2"
+          ]
+        }
+      ],
+      "disagreement_history": [
+        {
+          "best_model": "B",
+          "residuals": {
+            "A": 0.28281673437839194,
+            "B": 0.11931647524726448,
+            "C": 0.16587866264008955
+          },
+          "gap": 0.04656218739282507,
+          "identified": false,
+          "round": 0,
+          "observed": [
+            "e0"
+          ]
+        },
+        {
+          "best_model": "A",
+          "residuals": {
+            "A": 0.41703924815345106,
+            "B": 0.43559940257911994,
+            "C": 2.7553658293910925
+          },
+          "gap": 0.018560154425668884,
+          "identified": false,
+          "round": 1,
+          "observed": [
+            "e0",
+            "E2"
+          ]
+        },
+        {
+          "best_model": "A",
+          "residuals": {
+            "A": 0.5598568916840101,
+            "B": 2.0554084034190323,
+            "C": 2.755605476486174
+          },
+          "gap": 1.4955515117350222,
+          "identified": true,
+          "round": 2,
+          "observed": [
+            "e0",
+            "E2",
+            "E1"
+          ]
+        }
+      ]
+    },
+    "absorption_variant_slow": {
+      "family": "B-family slow transit",
+      "truth_params": {
+        "k_tr": 0.9,
+        "k_a": 0.95,
+        "k_e": 0.19,
+        "V": 20.5
+      },
+      "oracle_model": "B",
+      "full_residuals": {
+        "A": 2.3325966521155825,
+        "B": 0.4350737700025961,
+        "C": 3.597390658382083
+      },
+      "cartograph_history": [
+        {
+          "best_model": "C",
+          "residuals": {
+            "A": 0.3648653730294233,
+            "B": 0.16531725634916242,
+            "C": 0.1447658078120545
+          },
+          "gap": 0.020551448537107914,
+          "identified": false,
+          "round": 0,
+          "observed": [
+            "e0"
+          ]
+        },
+        {
+          "best_model": "B",
+          "residuals": {
+            "A": 2.062409832843643,
+            "B": 0.21860430017337862,
+            "C": 2.008667579346895
+          },
+          "gap": 1.7900632791735163,
+          "identified": true,
+          "round": 1,
+          "observed": [
+            "e0",
+            "E1"
+          ]
+        }
+      ],
+      "aopt_history": [
+        {
+          "best_model": "C",
+          "residuals": {
+            "A": 0.3648653730294233,
+            "B": 0.16531725634916242,
+            "C": 0.1447658078120545
+          },
+          "gap": 0.020551448537107914,
+          "identified": false,
+          "round": 0,
+          "observed": [
+            "e0"
+          ]
+        },
+        {
+          "best_model": "B",
+          "residuals": {
+            "A": 2.062409832843643,
+            "B": 0.21860430017337862,
+            "C": 2.008667579346895
+          },
+          "gap": 1.7900632791735163,
+          "identified": true,
+          "round": 1,
+          "observed": [
+            "e0",
+            "E1"
+          ]
+        }
+      ],
+      "disagreement_history": [
+        {
+          "best_model": "C",
+          "residuals": {
+            "A": 0.3648653730294233,
+            "B": 0.16531725634916242,
+            "C": 0.1447658078120545
+          },
+          "gap": 0.020551448537107914,
+          "identified": false,
+          "round": 0,
+          "observed": [
+            "e0"
+          ]
+        },
+        {
+          "best_model": "B",
+          "residuals": {
+            "A": 0.3747544971749212,
+            "B": 0.2185806458803916,
+            "C": 2.772582996317665
+          },
+          "gap": 0.1561738512945296,
+          "identified": true,
+          "round": 1,
+          "observed": [
+            "e0",
+            "E2"
+          ]
+        }
+      ]
+    },
+    "distribution_variant_subtle": {
+      "family": "C-family subtle distribution",
+      "truth_params": {
+        "k_a": 0.78,
+        "k_10": 0.17,
+        "k_12": 0.18,
+        "k_21": 0.22,
+        "V_c": 19.0
+      },
+      "oracle_model": "C",
+      "full_residuals": {
+        "A": 3.3488306527249816,
+        "B": 3.798359726162697,
+        "C": 1.5637890906889447
+      },
+      "cartograph_history": [
+        {
+          "best_model": "C",
+          "residuals": {
+            "A": 1.5667936743736102,
+            "B": 1.5254480397024772,
+            "C": 1.5002442076179445
+          },
+          "gap": 0.025203832084532696,
+          "identified": false,
+          "round": 0,
+          "observed": [
+            "e0"
+          ]
+        },
+        {
+          "best_model": "C",
+          "residuals": {
+            "A": 1.6122500817870127,
+            "B": 2.524171527628877,
+            "C": 1.5009724634120027
+          },
+          "gap": 0.11127761837500993,
+          "identified": true,
+          "round": 1,
+          "observed": [
+            "e0",
+            "E1"
+          ]
+        }
+      ],
+      "aopt_history": [
+        {
+          "best_model": "C",
+          "residuals": {
+            "A": 1.5667936743736102,
+            "B": 1.5254480397024772,
+            "C": 1.5002442076179445
+          },
+          "gap": 0.025203832084532696,
+          "identified": false,
+          "round": 0,
+          "observed": [
+            "e0"
+          ]
+        },
+        {
+          "best_model": "C",
+          "residuals": {
+            "A": 1.6122500817870127,
+            "B": 2.524171527628877,
+            "C": 1.5009724634120027
+          },
+          "gap": 0.11127761837500993,
+          "identified": true,
+          "round": 1,
+          "observed": [
+            "e0",
+            "E1"
+          ]
+        }
+      ],
+      "disagreement_history": [
+        {
+          "best_model": "C",
+          "residuals": {
+            "A": 1.5667936743736102,
+            "B": 1.5254480397024772,
+            "C": 1.5002442076179445
+          },
+          "gap": 0.025203832084532696,
+          "identified": false,
+          "round": 0,
+          "observed": [
+            "e0"
+          ]
+        },
+        {
+          "best_model": "C",
+          "residuals": {
+            "A": 3.179870684517173,
+            "B": 3.17357077113844,
+            "C": 1.5007314561065488
+          },
+          "gap": 1.6728393150318912,
+          "identified": true,
+          "round": 1,
+          "observed": [
+            "e0",
+            "E2"
+          ]
+        }
+      ]
+    }
+  },
+  "artifacts": {
+    "figure_1_rounds_heatmap": "outputs/pk_aopt_upgrade/figure_1_rounds_heatmap.png",
+    "figure_2_sequence_comparison": "outputs/pk_aopt_upgrade/figure_2_sequence_comparison.png",
+    "figure_3_gap_progress": "outputs/pk_aopt_upgrade/figure_3_gap_progress.png",
+    "benchmark_results_json": "outputs/pk_aopt_upgrade/benchmark_results.json",
+    "benchmark_summary_md": "outputs/pk_aopt_upgrade/benchmark_summary.md"
+  }
+}

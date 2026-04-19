@@ -1,0 +1,152 @@
+{
+  "timestamp": "2026-03-27T19:15:58.391511+00:00",
+  "system": {
+    "alpha": 1.0,
+    "beta": 0.2,
+    "delta": 0.3,
+    "gamma": 0.5,
+    "omega": 1.2,
+    "basis": [
+      "x",
+      "x^3",
+      "x'",
+      "cos(wt)"
+    ],
+    "a_star": [
+      -1.0,
+      -0.2,
+      -0.3,
+      0.5
+    ]
+  },
+  "models": {
+    "A (no x^3)": {
+      "mask": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "coeffs": [
+        -1.0,
+        -0.0,
+        -0.3,
+        0.5
+      ]
+    },
+    "B (no x')": {
+      "mask": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "coeffs": [
+        -1.0,
+        -0.2,
+        -0.0,
+        0.5
+      ]
+    },
+    "C (no cos)": {
+      "mask": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "coeffs": [
+        -1.0,
+        -0.2,
+        -0.3,
+        0.0
+      ]
+    },
+    "D (no x^3,cos)": {
+      "mask": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "coeffs": [
+        -1.0,
+        -0.0,
+        -0.3,
+        0.0
+      ]
+    }
+  },
+  "coverage": {
+    "true_support": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "union_support": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "coverage": true,
+    "uncovered_terms": []
+  },
+  "controversial_terms": {
+    "names": [
+      "x^3",
+      "x'",
+      "cos(wt)"
+    ],
+    "count": 3
+  },
+  "rank_progression": {
+    "experiments": [
+      "e1",
+      "e2",
+      "e3",
+      "e4",
+      "e5",
+      "e6"
+    ],
+    "ranks": [
+      3,
+      5,
+      7,
+      9,
+      11,
+      13
+    ],
+    "theoretical_rank": 3,
+    "sufficient_at_experiment": 1
+  },
+  "recovery": {
+    "recovered_controversial": {
+      "x^3": -0.2,
+      "x'": -0.3,
+      "cos(wt)": 0.5
+    },
+    "ground_truth_controversial": {
+      "x^3": -0.2,
+      "x'": -0.3,
+      "cos(wt)": 0.5
+    },
+    "recovery_error": 0.0,
+    "behavioral_rank": 13,
+    "theoretical_rank": 3,
+    "rank_sufficient": true
+  },
+  "svd_final_spectrum": [
+    76.55599750915381,
+    50.83049159745841,
+    17.99812351078468,
+    5.415730687351782,
+    3.7262690574368706,
+    3.1595228520681875,
+    0.8349765653416512,
+    0.48275362812616823,
+    0.3443959059664098,
+    0.1340578048620025
+  ]
+}

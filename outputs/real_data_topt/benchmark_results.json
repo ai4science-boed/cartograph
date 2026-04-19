@@ -1,0 +1,2437 @@
+{
+  "timestamp_utc": "2026-04-13T19:28:54.275464+00:00",
+  "dataset_path": "/Users/neelshah/Downloads/ai4science/data/cvtdb_v2_0_0_no_audit.sqlite",
+  "identification_margin": 2.0,
+  "min_points": 10,
+  "max_time_hours": 24.0,
+  "target_successful_series": 18,
+  "candidate_pool": [
+    {
+      "series_id": 120,
+      "label": "Dichloromethane oral",
+      "n_points": 22,
+      "max_time": 5.0
+    },
+    {
+      "series_id": 122,
+      "label": "1,2-Dichloroethane oral",
+      "n_points": 22,
+      "max_time": 5.0
+    },
+    {
+      "series_id": 121,
+      "label": "1,2-Dichloroethane oral",
+      "n_points": 21,
+      "max_time": 5.0
+    },
+    {
+      "series_id": 65743,
+      "label": "Chloroform oral",
+      "n_points": 21,
+      "max_time": 4.5
+    },
+    {
+      "series_id": 123,
+      "label": "Trichloroethylene oral",
+      "n_points": 20,
+      "max_time": 4.0
+    },
+    {
+      "series_id": 356,
+      "label": "Benzo[a]pyrene oral",
+      "n_points": 17,
+      "max_time": 23.82023
+    },
+    {
+      "series_id": 119,
+      "label": "Dichloromethane oral",
+      "n_points": 17,
+      "max_time": 2.5
+    },
+    {
+      "series_id": 65744,
+      "label": "Chloroform oral",
+      "n_points": 17,
+      "max_time": 2.5
+    },
+    {
+      "series_id": 32548,
+      "label": "Miconazole oral",
+      "n_points": 15,
+      "max_time": 15.9995
+    },
+    {
+      "series_id": 32549,
+      "label": "Miconazole oral",
+      "n_points": 15,
+      "max_time": 15.9995
+    },
+    {
+      "series_id": 40707,
+      "label": "Methyl tert-butyl ether oral",
+      "n_points": 14,
+      "max_time": 24.0
+    },
+    {
+      "series_id": 40710,
+      "label": "Methyl tert-butyl ether oral",
+      "n_points": 14,
+      "max_time": 24.0
+    },
+    {
+      "series_id": 98239,
+      "label": "Quinidine gluconate oral",
+      "n_points": 14,
+      "max_time": 24.0
+    },
+    {
+      "series_id": 98354,
+      "label": "Valproic acid oral",
+      "n_points": 13,
+      "max_time": 24.0
+    },
+    {
+      "series_id": 543,
+      "label": "Trichloroethylene oral",
+      "n_points": 13,
+      "max_time": 15.88929
+    },
+    {
+      "series_id": 98443,
+      "label": "Disulfate ion oral",
+      "n_points": 13,
+      "max_time": 12.0
+    },
+    {
+      "series_id": 98460,
+      "label": "Disulfate ion oral",
+      "n_points": 13,
+      "max_time": 12.0
+    },
+    {
+      "series_id": 32476,
+      "label": "Chlorogenic acid oral",
+      "n_points": 13,
+      "max_time": 11.97186
+    },
+    {
+      "series_id": 32477,
+      "label": "Chlorogenic acid oral",
+      "n_points": 13,
+      "max_time": 11.97186
+    },
+    {
+      "series_id": 32482,
+      "label": "D-Carnosine oral",
+      "n_points": 13,
+      "max_time": 9.4806
+    },
+    {
+      "series_id": 32483,
+      "label": "D-Carnosine oral",
+      "n_points": 13,
+      "max_time": 9.4806
+    },
+    {
+      "series_id": 65896,
+      "label": "1,2-Dichloroethane oral",
+      "n_points": 13,
+      "max_time": 8.0
+    },
+    {
+      "series_id": 32652,
+      "label": "Ciprofloxacin oral",
+      "n_points": 13,
+      "max_time": 7.0
+    },
+    {
+      "series_id": 32653,
+      "label": "Ciprofloxacin oral",
+      "n_points": 13,
+      "max_time": 7.0
+    },
+    {
+      "series_id": 98351,
+      "label": "Valproic acid oral",
+      "n_points": 12,
+      "max_time": 24.0
+    },
+    {
+      "series_id": 98353,
+      "label": "Valproic acid oral",
+      "n_points": 12,
+      "max_time": 24.0
+    },
+    {
+      "series_id": 32522,
+      "label": "Isopsoralen oral",
+      "n_points": 12,
+      "max_time": 23.955
+    },
+    {
+      "series_id": 544,
+      "label": "Trichloroethylene oral",
+      "n_points": 12,
+      "max_time": 15.88058
+    },
+    {
+      "series_id": 98278,
+      "label": "Caffeine, citrated oral",
+      "n_points": 12,
+      "max_time": 12.15048
+    },
+    {
+      "series_id": 97578,
+      "label": "5,5-Diphenylhydantoin oral",
+      "n_points": 12,
+      "max_time": 12.0
+    },
+    {
+      "series_id": 97579,
+      "label": "5,5-Diphenylhydantoin oral",
+      "n_points": 12,
+      "max_time": 12.0
+    },
+    {
+      "series_id": 97580,
+      "label": "5,5-Diphenylhydantoin oral",
+      "n_points": 12,
+      "max_time": 12.0
+    },
+    {
+      "series_id": 97581,
+      "label": "5,5-Diphenylhydantoin oral",
+      "n_points": 12,
+      "max_time": 12.0
+    },
+    {
+      "series_id": 65894,
+      "label": "1,2-Dichloroethane oral",
+      "n_points": 12,
+      "max_time": 8.0
+    },
+    {
+      "series_id": 65895,
+      "label": "1,2-Dichloroethane oral",
+      "n_points": 12,
+      "max_time": 8.0
+    },
+    {
+      "series_id": 65897,
+      "label": "1,2-Dichloroethane oral",
+      "n_points": 12,
+      "max_time": 8.0
+    },
+    {
+      "series_id": 97557,
+      "label": "Diclofenac oral",
+      "n_points": 12,
+      "max_time": 8.0
+    },
+    {
+      "series_id": 32436,
+      "label": "Acetaminophen oral",
+      "n_points": 12,
+      "max_time": 2.0
+    },
+    {
+      "series_id": 32437,
+      "label": "Acetaminophen oral",
+      "n_points": 12,
+      "max_time": 2.0
+    },
+    {
+      "series_id": 98157,
+      "label": "Nilvadipine oral",
+      "n_points": 11,
+      "max_time": 24.0
+    },
+    {
+      "series_id": 98158,
+      "label": "Nilvadipine oral",
+      "n_points": 11,
+      "max_time": 24.0
+    },
+    {
+      "series_id": 98159,
+      "label": "Nilvadipine oral",
+      "n_points": 11,
+      "max_time": 24.0
+    },
+    {
+      "series_id": 32602,
+      "label": "Sulfasalazine oral",
+      "n_points": 11,
+      "max_time": 23.996
+    },
+    {
+      "series_id": 32603,
+      "label": "Sulfasalazine oral",
+      "n_points": 11,
+      "max_time": 23.996
+    },
+    {
+      "series_id": 357,
+      "label": "Benzo[a]pyrene oral",
+      "n_points": 11,
+      "max_time": 23.82391
+    },
+    {
+      "series_id": 552,
+      "label": "Trichloroethylene oral",
+      "n_points": 11,
+      "max_time": 16.13658
+    },
+    {
+      "series_id": 32484,
+      "label": "Dabigatran oral",
+      "n_points": 11,
+      "max_time": 12.0
+    },
+    {
+      "series_id": 32485,
+      "label": "Dabigatran oral",
+      "n_points": 11,
+      "max_time": 12.0
+    },
+    {
+      "series_id": 98352,
+      "label": "Valproic acid oral",
+      "n_points": 11,
+      "max_time": 12.0
+    },
+    {
+      "series_id": 558,
+      "label": "Trichloroethylene oral",
+      "n_points": 11,
+      "max_time": 11.59194
+    },
+    {
+      "series_id": 97989,
+      "label": "Diltiazem oral",
+      "n_points": 11,
+      "max_time": 10.0
+    },
+    {
+      "series_id": 97993,
+      "label": "Diltiazem oral",
+      "n_points": 11,
+      "max_time": 10.0
+    },
+    {
+      "series_id": 97994,
+      "label": "Diltiazem oral",
+      "n_points": 11,
+      "max_time": 10.0
+    },
+    {
+      "series_id": 32664,
+      "label": "Diazepam oral",
+      "n_points": 11,
+      "max_time": 8.0
+    },
+    {
+      "series_id": 32665,
+      "label": "Diazepam oral",
+      "n_points": 11,
+      "max_time": 8.0
+    },
+    {
+      "series_id": 32678,
+      "label": "Fexofenadine oral",
+      "n_points": 11,
+      "max_time": 8.0
+    },
+    {
+      "series_id": 32679,
+      "label": "Fexofenadine oral",
+      "n_points": 11,
+      "max_time": 8.0
+    },
+    {
+      "series_id": 32714,
+      "label": "Oxycodone oral",
+      "n_points": 11,
+      "max_time": 8.0
+    },
+    {
+      "series_id": 32715,
+      "label": "Oxycodone oral",
+      "n_points": 11,
+      "max_time": 8.0
+    },
+    {
+      "series_id": 65899,
+      "label": "1,2-Dichloroethane oral",
+      "n_points": 11,
+      "max_time": 8.0
+    },
+    {
+      "series_id": 65900,
+      "label": "1,2-Dichloroethane oral",
+      "n_points": 11,
+      "max_time": 8.0
+    },
+    {
+      "series_id": 65901,
+      "label": "1,2-Dichloroethane oral",
+      "n_points": 11,
+      "max_time": 8.0
+    },
+    {
+      "series_id": 32584,
+      "label": "Quinotolast oral",
+      "n_points": 11,
+      "max_time": 7.958
+    },
+    {
+      "series_id": 32585,
+      "label": "Quinotolast oral",
+      "n_points": 11,
+      "max_time": 7.958
+    },
+    {
+      "series_id": 97829,
+      "label": "Alprazolam oral",
+      "n_points": 11,
+      "max_time": 6.0
+    },
+    {
+      "series_id": 97832,
+      "label": "Alprazolam oral",
+      "n_points": 11,
+      "max_time": 6.0
+    },
+    {
+      "series_id": 97835,
+      "label": "Alprazolam oral",
+      "n_points": 11,
+      "max_time": 6.0
+    },
+    {
+      "series_id": 32710,
+      "label": "Nitrazepam oral",
+      "n_points": 11,
+      "max_time": 5.0113
+    },
+    {
+      "series_id": 32711,
+      "label": "Nitrazepam oral",
+      "n_points": 11,
+      "max_time": 5.0113
+    },
+    {
+      "series_id": 65891,
+      "label": "1,2-Dichloroethane oral",
+      "n_points": 11,
+      "max_time": 3.0
+    },
+    {
+      "series_id": 32544,
+      "label": "Methyl methacrylate oral",
+      "n_points": 11,
+      "max_time": 1.0
+    },
+    {
+      "series_id": 32545,
+      "label": "Methyl methacrylate oral",
+      "n_points": 11,
+      "max_time": 1.0
+    },
+    {
+      "series_id": 32450,
+      "label": "Aspirin oral",
+      "n_points": 11,
+      "max_time": 0.49998
+    },
+    {
+      "series_id": 32451,
+      "label": "Aspirin oral",
+      "n_points": 11,
+      "max_time": 0.49998
+    },
+    {
+      "series_id": 32514,
+      "label": "Glycine oral",
+      "n_points": 10,
+      "max_time": 24.0
+    },
+    {
+      "series_id": 32515,
+      "label": "Glycine oral",
+      "n_points": 10,
+      "max_time": 24.0
+    },
+    {
+      "series_id": 32614,
+      "label": "Terguride oral",
+      "n_points": 10,
+      "max_time": 24.0
+    },
+    {
+      "series_id": 32615,
+      "label": "Terguride oral",
+      "n_points": 10,
+      "max_time": 24.0
+    },
+    {
+      "series_id": 32666,
+      "label": "Diisobutyl ketone oral",
+      "n_points": 10,
+      "max_time": 24.0
+    },
+    {
+      "series_id": 32667,
+      "label": "Diisobutyl ketone oral",
+      "n_points": 10,
+      "max_time": 24.0
+    },
+    {
+      "series_id": 32674,
+      "label": "Ellagic acid oral",
+      "n_points": 10,
+      "max_time": 24.0
+    },
+    {
+      "series_id": 32675,
+      "label": "Ellagic acid oral",
+      "n_points": 10,
+      "max_time": 24.0
+    },
+    {
+      "series_id": 98453,
+      "label": "Disulfate ion oral",
+      "n_points": 10,
+      "max_time": 24.0
+    },
+    {
+      "series_id": 98470,
+      "label": "Disulfate ion oral",
+      "n_points": 10,
+      "max_time": 24.0
+    },
+    {
+      "series_id": 563,
+      "label": "Trichloroethylene oral",
+      "n_points": 10,
+      "max_time": 16.05658
+    },
+    {
+      "series_id": 182,
+      "label": "Benzo[a]pyrene oral",
+      "n_points": 10,
+      "max_time": 14.99356
+    },
+    {
+      "series_id": 32446,
+      "label": "Apixaban oral",
+      "n_points": 10,
+      "max_time": 12.0
+    },
+    {
+      "series_id": 32447,
+      "label": "Apixaban oral",
+      "n_points": 10,
+      "max_time": 12.0
+    },
+    {
+      "series_id": 32588,
+      "label": "Rivaroxaban oral",
+      "n_points": 10,
+      "max_time": 12.0
+    },
+    {
+      "series_id": 32589,
+      "label": "Rivaroxaban oral",
+      "n_points": 10,
+      "max_time": 12.0
+    },
+    {
+      "series_id": 32746,
+      "label": "Tedizolid oral",
+      "n_points": 10,
+      "max_time": 12.0
+    },
+    {
+      "series_id": 32747,
+      "label": "Tedizolid oral",
+      "n_points": 10,
+      "max_time": 12.0
+    },
+    {
+      "series_id": 32576,
+      "label": "Pranlukast oral",
+      "n_points": 10,
+      "max_time": 11.9504
+    },
+    {
+      "series_id": 32577,
+      "label": "Pranlukast oral",
+      "n_points": 10,
+      "max_time": 11.9504
+    },
+    {
+      "series_id": 32618,
+      "label": "Theophylline oral",
+      "n_points": 10,
+      "max_time": 11.9371
+    },
+    {
+      "series_id": 32619,
+      "label": "Theophylline oral",
+      "n_points": 10,
+      "max_time": 11.9371
+    },
+    {
+      "series_id": 97995,
+      "label": "Diltiazem oral",
+      "n_points": 10,
+      "max_time": 10.0
+    },
+    {
+      "series_id": 32532,
+      "label": "Lemildipine oral",
+      "n_points": 10,
+      "max_time": 9.983
+    },
+    {
+      "series_id": 32533,
+      "label": "Lemildipine oral",
+      "n_points": 10,
+      "max_time": 9.983
+    },
+    {
+      "series_id": 32702,
+      "label": "Methylphenidate oral",
+      "n_points": 10,
+      "max_time": 8.0
+    },
+    {
+      "series_id": 32703,
+      "label": "Methylphenidate oral",
+      "n_points": 10,
+      "max_time": 8.0
+    },
+    {
+      "series_id": 65898,
+      "label": "1,2-Dichloroethane oral",
+      "n_points": 10,
+      "max_time": 8.0
+    },
+    {
+      "series_id": 32758,
+      "label": "Zolpidem oral",
+      "n_points": 10,
+      "max_time": 7.9956
+    },
+    {
+      "series_id": 32759,
+      "label": "Zolpidem oral",
+      "n_points": 10,
+      "max_time": 7.9956
+    },
+    {
+      "series_id": 32572,
+      "label": "Pitavastatin oral",
+      "n_points": 10,
+      "max_time": 7.9737
+    },
+    {
+      "series_id": 32573,
+      "label": "Pitavastatin oral",
+      "n_points": 10,
+      "max_time": 7.9737
+    },
+    {
+      "series_id": 551,
+      "label": "Trichloroethylene oral",
+      "n_points": 10,
+      "max_time": 7.9057
+    },
+    {
+      "series_id": 564,
+      "label": "Trichloroethylene oral",
+      "n_points": 10,
+      "max_time": 7.8729
+    },
+    {
+      "series_id": 32752,
+      "label": "Triazolam oral",
+      "n_points": 10,
+      "max_time": 7.0
+    },
+    {
+      "series_id": 32753,
+      "label": "Triazolam oral",
+      "n_points": 10,
+      "max_time": 7.0
+    },
+    {
+      "series_id": 32704,
+      "label": "Morphine oral",
+      "n_points": 10,
+      "max_time": 6.0
+    },
+    {
+      "series_id": 32705,
+      "label": "Morphine oral",
+      "n_points": 10,
+      "max_time": 6.0
+    },
+    {
+      "series_id": 97828,
+      "label": "Alprazolam oral",
+      "n_points": 10,
+      "max_time": 6.0
+    },
+    {
+      "series_id": 97834,
+      "label": "Alprazolam oral",
+      "n_points": 10,
+      "max_time": 6.0
+    },
+    {
+      "series_id": 32490,
+      "label": "Digoxin oral",
+      "n_points": 10,
+      "max_time": 5.0663
+    },
+    {
+      "series_id": 32491,
+      "label": "Digoxin oral",
+      "n_points": 10,
+      "max_time": 5.0663
+    },
+    {
+      "series_id": 32494,
+      "label": "Domitroban oral",
+      "n_points": 10,
+      "max_time": 4.0
+    },
+    {
+      "series_id": 32495,
+      "label": "Domitroban oral",
+      "n_points": 10,
+      "max_time": 4.0
+    },
+    {
+      "series_id": 65890,
+      "label": "1,2-Dichloroethane oral",
+      "n_points": 10,
+      "max_time": 3.0
+    },
+    {
+      "series_id": 65892,
+      "label": "1,2-Dichloroethane oral",
+      "n_points": 10,
+      "max_time": 3.0
+    },
+    {
+      "series_id": 32734,
+      "label": "Scopoletin oral",
+      "n_points": 10,
+      "max_time": 2.0
+    },
+    {
+      "series_id": 32735,
+      "label": "Scopoletin oral",
+      "n_points": 10,
+      "max_time": 2.0
+    },
+    {
+      "series_id": 97570,
+      "label": "Ondansetron hydrochloride dihydrate oral",
+      "n_points": 10,
+      "max_time": 2.0
+    }
+  ],
+  "series_results": [
+    {
+      "series_id": 120,
+      "label": "Dichloromethane oral",
+      "n_points": 22,
+      "max_time": 5.0,
+      "oracle": "A",
+      "full_bics": {
+        "A": -65.7654362628923,
+        "B": -41.63477281531075,
+        "C": -63.31146001518825
+      },
+      "initial_idx": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20
+      ],
+      "initial_times": [
+        0.0,
+        0.14384,
+        0.31667,
+        0.76712,
+        2.5,
+        5.0
+      ],
+      "initial_best_model": "C",
+      "initial_gap": 71.06467702766437,
+      "initial_oracle_margin": -71.06467702766437,
+      "unresolved_dim": 0,
+      "tau": 0.02682935877694871,
+      "singular_values": [
+        0.13414679388474354,
+        0.12497584958582003
+      ],
+      "candidate_results": [
+        {
+          "block": "E1",
+          "times": [
+            0.03333,
+            0.06667,
+            0.1,
+            0.16667,
+            0.21667
+          ],
+          "block_size": 5,
+          "cartograph_score": 0.0,
+          "sigma_local": 0.0,
+          "disagreement_score": 1.4866100767989838,
+          "topt_score": 5897571.1709509175,
+          "oracle_margin": -4.636966300513322,
+          "identified": false,
+          "best_model": "C",
+          "gap": 4.636966300513322
+        },
+        {
+          "block": "E2",
+          "times": [
+            0.26667,
+            0.36667,
+            0.41667,
+            0.5,
+            1.0
+          ],
+          "block_size": 5,
+          "cartograph_score": 0.0,
+          "sigma_local": 0.0,
+          "disagreement_score": 0.029722187519388463,
+          "topt_score": 1773403.4473932518,
+          "oracle_margin": -10.223131789045581,
+          "identified": false,
+          "best_model": "C",
+          "gap": 10.223131789045581
+        },
+        {
+          "block": "E3",
+          "times": [
+            1.5,
+            2.0,
+            3.0,
+            3.5,
+            4.0
+          ],
+          "block_size": 5,
+          "cartograph_score": 0.0,
+          "sigma_local": 0.0,
+          "disagreement_score": 0.03382472052468218,
+          "topt_score": 3122942.924904393,
+          "oracle_margin": 3.3567751406449915,
+          "identified": true,
+          "best_model": "A",
+          "gap": 3.3567751406449915
+        }
+      ],
+      "cartograph_pick": {
+        "block": "E1",
+        "times": [
+          0.03333,
+          0.06667,
+          0.1,
+          0.16667,
+          0.21667
+        ],
+        "block_size": 5,
+        "cartograph_score": 0.0,
+        "sigma_local": 0.0,
+        "disagreement_score": 1.4866100767989838,
+        "topt_score": 5897571.1709509175,
+        "oracle_margin": -4.636966300513322,
+        "identified": false,
+        "best_model": "C",
+        "gap": 4.636966300513322
+      },
+      "disagreement_pick": {
+        "block": "E1",
+        "times": [
+          0.03333,
+          0.06667,
+          0.1,
+          0.16667,
+          0.21667
+        ],
+        "block_size": 5,
+        "cartograph_score": 0.0,
+        "sigma_local": 0.0,
+        "disagreement_score": 1.4866100767989838,
+        "topt_score": 5897571.1709509175,
+        "oracle_margin": -4.636966300513322,
+        "identified": false,
+        "best_model": "C",
+        "gap": 4.636966300513322
+      },
+      "topt_pick": {
+        "block": "E1",
+        "times": [
+          0.03333,
+          0.06667,
+          0.1,
+          0.16667,
+          0.21667
+        ],
+        "block_size": 5,
+        "cartograph_score": 0.0,
+        "sigma_local": 0.0,
+        "disagreement_score": 1.4866100767989838,
+        "topt_score": 5897571.1709509175,
+        "oracle_margin": -4.636966300513322,
+        "identified": false,
+        "best_model": "C",
+        "gap": 4.636966300513322
+      },
+      "oracle_best_block": "E3",
+      "oracle_best_margin": 3.3567751406449915,
+      "random_expected_oracle_margin": -3.8344409829713038
+    },
+    {
+      "series_id": 122,
+      "label": "1,2-Dichloroethane oral",
+      "n_points": 22,
+      "max_time": 5.0,
+      "oracle": "A",
+      "full_bics": {
+        "A": -73.16611425891627,
+        "B": -41.42995385597735,
+        "C": -68.91523840138036
+      },
+      "initial_idx": [
+        0,
+        4,
+        8,
+        13,
+        17,
+        21
+      ],
+      "initial_times": [
+        0.0,
+        0.16667,
+        0.31667,
+        1.0,
+        3.0,
+        5.0
+      ],
+      "initial_best_model": "C",
+      "initial_gap": 78.09130709666324,
+      "initial_oracle_margin": -78.09130709666324,
+      "unresolved_dim": 0,
+      "tau": 0.04944814875034817,
+      "singular_values": [
+        0.24724074375174085,
+        0.08670424932342284
+      ],
+      "candidate_results": [
+        {
+          "block": "E1",
+          "times": [
+            0.03333,
+            0.06667,
+            0.1,
+            0.19215,
+            0.21667,
+            0.26667
+          ],
+          "block_size": 6,
+          "cartograph_score": 0.0,
+          "sigma_local": 0.0,
+          "disagreement_score": 1.9254063964710384,
+          "topt_score": 3285907.656668131,
+          "oracle_margin": -3.6781444465746347,
+          "identified": false,
+          "best_model": "C",
+          "gap": 3.6781444465746347
+        },
+        {
+          "block": "E2",
+          "times": [
+            0.36667,
+            0.41667,
+            0.5,
+            0.7778,
+            1.5
+          ],
+          "block_size": 5,
+          "cartograph_score": 0.0,
+          "sigma_local": 0.0,
+          "disagreement_score": 0.06242062153686173,
+          "topt_score": 5088769.929318911,
+          "oracle_margin": -11.572456464779862,
+          "identified": false,
+          "best_model": "C",
+          "gap": 11.572456464779862
+        },
+        {
+          "block": "E3",
+          "times": [
+            2.0,
+            2.5,
+            3.5,
+            4.0,
+            4.5
+          ],
+          "block_size": 5,
+          "cartograph_score": 0.0,
+          "sigma_local": 0.0,
+          "disagreement_score": 0.07217878809892456,
+          "topt_score": 7069413.906637814,
+          "oracle_margin": 3.3076308047902288,
+          "identified": true,
+          "best_model": "A",
+          "gap": 3.3076308047902288
+        }
+      ],
+      "cartograph_pick": {
+        "block": "E1",
+        "times": [
+          0.03333,
+          0.06667,
+          0.1,
+          0.19215,
+          0.21667,
+          0.26667
+        ],
+        "block_size": 6,
+        "cartograph_score": 0.0,
+        "sigma_local": 0.0,
+        "disagreement_score": 1.9254063964710384,
+        "topt_score": 3285907.656668131,
+        "oracle_margin": -3.6781444465746347,
+        "identified": false,
+        "best_model": "C",
+        "gap": 3.6781444465746347
+      },
+      "disagreement_pick": {
+        "block": "E1",
+        "times": [
+          0.03333,
+          0.06667,
+          0.1,
+          0.19215,
+          0.21667,
+          0.26667
+        ],
+        "block_size": 6,
+        "cartograph_score": 0.0,
+        "sigma_local": 0.0,
+        "disagreement_score": 1.9254063964710384,
+        "topt_score": 3285907.656668131,
+        "oracle_margin": -3.6781444465746347,
+        "identified": false,
+        "best_model": "C",
+        "gap": 3.6781444465746347
+      },
+      "topt_pick": {
+        "block": "E3",
+        "times": [
+          2.0,
+          2.5,
+          3.5,
+          4.0,
+          4.5
+        ],
+        "block_size": 5,
+        "cartograph_score": 0.0,
+        "sigma_local": 0.0,
+        "disagreement_score": 0.07217878809892456,
+        "topt_score": 7069413.906637814,
+        "oracle_margin": 3.3076308047902288,
+        "identified": true,
+        "best_model": "A",
+        "gap": 3.3076308047902288
+      },
+      "oracle_best_block": "E3",
+      "oracle_best_margin": 3.3076308047902288,
+      "random_expected_oracle_margin": -3.9809900355214225
+    },
+    {
+      "series_id": 123,
+      "label": "Trichloroethylene oral",
+      "n_points": 20,
+      "max_time": 4.0,
+      "oracle": "C",
+      "full_bics": {
+        "A": -6.196357509927546,
+        "B": 8.958994385432753,
+        "C": -56.568754863161296
+      },
+      "initial_idx": [
+        0,
+        4,
+        8,
+        11,
+        15,
+        19
+      ],
+      "initial_times": [
+        0.0,
+        0.14476,
+        0.31667,
+        0.5,
+        2.0,
+        4.0
+      ],
+      "initial_best_model": "C",
+      "initial_gap": 32.082504863299214,
+      "initial_oracle_margin": 32.082504863299214,
+      "unresolved_dim": 1,
+      "tau": 0.252061072248612,
+      "singular_values": [
+        1.26030536124306,
+        0.040321530008483875
+      ],
+      "candidate_results": [
+        {
+          "block": "E1",
+          "times": [
+            0.03333,
+            0.06667,
+            0.1,
+            0.16667,
+            0.21667
+          ],
+          "block_size": 5,
+          "cartograph_score": 1.1331191775833303,
+          "sigma_local": 1.0644807079432346,
+          "disagreement_score": 9.703794613769322,
+          "topt_score": 11373.048557663142,
+          "oracle_margin": 55.558382316993836,
+          "identified": true,
+          "best_model": "C",
+          "gap": 55.558382316993836
+        },
+        {
+          "block": "E2",
+          "times": [
+            0.26667,
+            0.36667,
+            0.41667,
+            0.76935,
+            1.0
+          ],
+          "block_size": 5,
+          "cartograph_score": 0.0035698395076059525,
+          "sigma_local": 0.05974813392572151,
+          "disagreement_score": 1.2912069478857662,
+          "topt_score": 1864.1666767607262,
+          "oracle_margin": 59.27566664851537,
+          "identified": true,
+          "best_model": "C",
+          "gap": 59.27566664851537
+        },
+        {
+          "block": "E3",
+          "times": [
+            1.5,
+            2.5,
+            3.0,
+            3.5
+          ],
+          "block_size": 4,
+          "cartograph_score": 0.0003302424264990776,
+          "sigma_local": 0.01817257346935424,
+          "disagreement_score": 0.26113988994246723,
+          "topt_score": 378.5655792883913,
+          "oracle_margin": 9.56386519534767,
+          "identified": true,
+          "best_model": "C",
+          "gap": 9.56386519534767
+        }
+      ],
+      "cartograph_pick": {
+        "block": "E1",
+        "times": [
+          0.03333,
+          0.06667,
+          0.1,
+          0.16667,
+          0.21667
+        ],
+        "block_size": 5,
+        "cartograph_score": 1.1331191775833303,
+        "sigma_local": 1.0644807079432346,
+        "disagreement_score": 9.703794613769322,
+        "topt_score": 11373.048557663142,
+        "oracle_margin": 55.558382316993836,
+        "identified": true,
+        "best_model": "C",
+        "gap": 55.558382316993836
+      },
+      "disagreement_pick": {
+        "block": "E1",
+        "times": [
+          0.03333,
+          0.06667,
+          0.1,
+          0.16667,
+          0.21667
+        ],
+        "block_size": 5,
+        "cartograph_score": 1.1331191775833303,
+        "sigma_local": 1.0644807079432346,
+        "disagreement_score": 9.703794613769322,
+        "topt_score": 11373.048557663142,
+        "oracle_margin": 55.558382316993836,
+        "identified": true,
+        "best_model": "C",
+        "gap": 55.558382316993836
+      },
+      "topt_pick": {
+        "block": "E1",
+        "times": [
+          0.03333,
+          0.06667,
+          0.1,
+          0.16667,
+          0.21667
+        ],
+        "block_size": 5,
+        "cartograph_score": 1.1331191775833303,
+        "sigma_local": 1.0644807079432346,
+        "disagreement_score": 9.703794613769322,
+        "topt_score": 11373.048557663142,
+        "oracle_margin": 55.558382316993836,
+        "identified": true,
+        "best_model": "C",
+        "gap": 55.558382316993836
+      },
+      "oracle_best_block": "E2",
+      "oracle_best_margin": 59.27566664851537,
+      "random_expected_oracle_margin": 41.46597138695229
+    },
+    {
+      "series_id": 356,
+      "label": "Benzo[a]pyrene oral",
+      "n_points": 17,
+      "max_time": 23.82023,
+      "oracle": "B",
+      "full_bics": {
+        "A": 41.49973310078138,
+        "B": 27.12017369411804,
+        "C": 43.59552842368559
+      },
+      "initial_idx": [
+        0,
+        3,
+        6,
+        10,
+        13,
+        16
+      ],
+      "initial_times": [
+        0.0,
+        0.41308,
+        1.13495,
+        3.06738,
+        7.69563,
+        23.82023
+      ],
+      "initial_best_model": "B",
+      "initial_gap": 3.654463063122014,
+      "initial_oracle_margin": 3.654463063122014,
+      "unresolved_dim": 1,
+      "tau": 0.7942372690989932,
+      "singular_values": [
+        3.971186345494966,
+        0.4811892309165742
+      ],
+      "candidate_results": [
+        {
+          "block": "E1",
+          "times": [
+            0.08263,
+            0.20467,
+            0.68361,
+            0.95425
+          ],
+          "block_size": 4,
+          "cartograph_score": 2.2165810417758105,
+          "sigma_local": 1.4888186732358681,
+          "disagreement_score": 45.952968717297445,
+          "topt_score": 19.05887795933339,
+          "oracle_margin": 8.868049107894866,
+          "identified": true,
+          "best_model": "B",
+          "gap": 8.868049107894866
+        },
+        {
+          "block": "E2",
+          "times": [
+            1.43538,
+            1.94963,
+            2.46376,
+            4.76127
+          ],
+          "block_size": 4,
+          "cartograph_score": 0.27112234340243835,
+          "sigma_local": 0.5206940977219142,
+          "disagreement_score": 5.598110723518794,
+          "topt_score": 1.7227178290504994,
+          "oracle_margin": 4.2769819182612565,
+          "identified": true,
+          "best_model": "B",
+          "gap": 4.2769819182612565
+        },
+        {
+          "block": "E3",
+          "times": [
+            5.75825,
+            9.66061,
+            11.68816
+          ],
+          "block_size": 3,
+          "cartograph_score": 0.02169898061295412,
+          "sigma_local": 0.1473057385608386,
+          "disagreement_score": 1.2780563836312222,
+          "topt_score": 0.4736809750531366,
+          "oracle_margin": 5.902754951679411,
+          "identified": true,
+          "best_model": "B",
+          "gap": 5.902754951679411
+        }
+      ],
+      "cartograph_pick": {
+        "block": "E1",
+        "times": [
+          0.08263,
+          0.20467,
+          0.68361,
+          0.95425
+        ],
+        "block_size": 4,
+        "cartograph_score": 2.2165810417758105,
+        "sigma_local": 1.4888186732358681,
+        "disagreement_score": 45.952968717297445,
+        "topt_score": 19.05887795933339,
+        "oracle_margin": 8.868049107894866,
+        "identified": true,
+        "best_model": "B",
+        "gap": 8.868049107894866
+      },
+      "disagreement_pick": {
+        "block": "E1",
+        "times": [
+          0.08263,
+          0.20467,
+          0.68361,
+          0.95425
+        ],
+        "block_size": 4,
+        "cartograph_score": 2.2165810417758105,
+        "sigma_local": 1.4888186732358681,
+        "disagreement_score": 45.952968717297445,
+        "topt_score": 19.05887795933339,
+        "oracle_margin": 8.868049107894866,
+        "identified": true,
+        "best_model": "B",
+        "gap": 8.868049107894866
+      },
+      "topt_pick": {
+        "block": "E1",
+        "times": [
+          0.08263,
+          0.20467,
+          0.68361,
+          0.95425
+        ],
+        "block_size": 4,
+        "cartograph_score": 2.2165810417758105,
+        "sigma_local": 1.4888186732358681,
+        "disagreement_score": 45.952968717297445,
+        "topt_score": 19.05887795933339,
+        "oracle_margin": 8.868049107894866,
+        "identified": true,
+        "best_model": "B",
+        "gap": 8.868049107894866
+      },
+      "oracle_best_block": "E1",
+      "oracle_best_margin": 8.868049107894866,
+      "random_expected_oracle_margin": 6.349261992611844
+    },
+    {
+      "series_id": 65744,
+      "label": "Chloroform oral",
+      "n_points": 17,
+      "max_time": 2.5,
+      "oracle": "A",
+      "full_bics": {
+        "A": -33.69921187577561,
+        "B": -31.813344759087986,
+        "C": -30.187587988117535
+      },
+      "initial_idx": [
+        0,
+        3,
+        6,
+        10,
+        13,
+        16
+      ],
+      "initial_times": [
+        0.0,
+        0.1,
+        0.21667,
+        0.41667,
+        1.0,
+        2.5
+      ],
+      "initial_best_model": "C",
+      "initial_gap": 14.37901002692479,
+      "initial_oracle_margin": -14.37901002692479,
+      "unresolved_dim": 1,
+      "tau": 0.1047719324069157,
+      "singular_values": [
+        0.5238596620345785,
+        0.03635863456937595
+      ],
+      "candidate_results": [
+        {
+          "block": "E1",
+          "times": [
+            0.03333,
+            0.06667,
+            0.13697,
+            0.16667
+          ],
+          "block_size": 4,
+          "cartograph_score": 0.27136968214058693,
+          "sigma_local": 0.5209315522605508,
+          "disagreement_score": 2.2237835504235672,
+          "topt_score": 448.1777659491838,
+          "oracle_margin": -0.9327433030274541,
+          "identified": false,
+          "best_model": "B",
+          "gap": 0.9327433030274541
+        },
+        {
+          "block": "E2",
+          "times": [
+            0.26667,
+            0.31667,
+            0.36667,
+            0.5
+          ],
+          "block_size": 4,
+          "cartograph_score": 0.0005537414960158984,
+          "sigma_local": 0.023531712560200514,
+          "disagreement_score": 0.19874802408645983,
+          "topt_score": 85.78708679641838,
+          "oracle_margin": -15.792255350713098,
+          "identified": false,
+          "best_model": "C",
+          "gap": 15.792255350713098
+        },
+        {
+          "block": "E3",
+          "times": [
+            0.74989,
+            1.5,
+            2.0
+          ],
+          "block_size": 3,
+          "cartograph_score": 0.00027447375205466996,
+          "sigma_local": 0.01656724938107319,
+          "disagreement_score": 0.04710603364986927,
+          "topt_score": 21.512853592121445,
+          "oracle_margin": -19.205632228320432,
+          "identified": false,
+          "best_model": "C",
+          "gap": 19.205632228320432
+        }
+      ],
+      "cartograph_pick": {
+        "block": "E1",
+        "times": [
+          0.03333,
+          0.06667,
+          0.13697,
+          0.16667
+        ],
+        "block_size": 4,
+        "cartograph_score": 0.27136968214058693,
+        "sigma_local": 0.5209315522605508,
+        "disagreement_score": 2.2237835504235672,
+        "topt_score": 448.1777659491838,
+        "oracle_margin": -0.9327433030274541,
+        "identified": false,
+        "best_model": "B",
+        "gap": 0.9327433030274541
+      },
+      "disagreement_pick": {
+        "block": "E1",
+        "times": [
+          0.03333,
+          0.06667,
+          0.13697,
+          0.16667
+        ],
+        "block_size": 4,
+        "cartograph_score": 0.27136968214058693,
+        "sigma_local": 0.5209315522605508,
+        "disagreement_score": 2.2237835504235672,
+        "topt_score": 448.1777659491838,
+        "oracle_margin": -0.9327433030274541,
+        "identified": false,
+        "best_model": "B",
+        "gap": 0.9327433030274541
+      },
+      "topt_pick": {
+        "block": "E1",
+        "times": [
+          0.03333,
+          0.06667,
+          0.13697,
+          0.16667
+        ],
+        "block_size": 4,
+        "cartograph_score": 0.27136968214058693,
+        "sigma_local": 0.5209315522605508,
+        "disagreement_score": 2.2237835504235672,
+        "topt_score": 448.1777659491838,
+        "oracle_margin": -0.9327433030274541,
+        "identified": false,
+        "best_model": "B",
+        "gap": 0.9327433030274541
+      },
+      "oracle_best_block": "E1",
+      "oracle_best_margin": -0.9327433030274541,
+      "random_expected_oracle_margin": -11.976876960686994
+    },
+    {
+      "series_id": 40707,
+      "label": "Methyl tert-butyl ether oral",
+      "n_points": 14,
+      "max_time": 24.0,
+      "oracle": "A",
+      "full_bics": {
+        "A": 28.266105443142543,
+        "B": 30.870796233567773,
+        "C": 33.127955220291476
+      },
+      "initial_idx": [
+        0,
+        3,
+        5,
+        8,
+        10,
+        13
+      ],
+      "initial_times": [
+        0.0,
+        0.5,
+        1.0,
+        1.75,
+        3.0,
+        24.0
+      ],
+      "initial_best_model": "A",
+      "initial_gap": 1.8027335603707755,
+      "initial_oracle_margin": 1.8027335603707755,
+      "unresolved_dim": 0,
+      "tau": 0.138662415258014,
+      "singular_values": [
+        0.6933120762900701,
+        0.27621881924496655
+      ],
+      "candidate_results": [
+        {
+          "block": "E1",
+          "times": [
+            0.08333,
+            0.25,
+            0.75
+          ],
+          "block_size": 3,
+          "cartograph_score": 0.0,
+          "sigma_local": 0.0,
+          "disagreement_score": 2.3871301018934,
+          "topt_score": 0.1644438019837749,
+          "oracle_margin": 2.1655569340817244,
+          "identified": true,
+          "best_model": "A",
+          "gap": 2.1655569340817244
+        },
+        {
+          "block": "E2",
+          "times": [
+            1.25,
+            1.5,
+            2.0
+          ],
+          "block_size": 3,
+          "cartograph_score": 0.0,
+          "sigma_local": 0.0,
+          "disagreement_score": 0.12582802602616502,
+          "topt_score": 0.005402700207968387,
+          "oracle_margin": 2.221942415270501,
+          "identified": true,
+          "best_model": "A",
+          "gap": 2.221942415270501
+        },
+        {
+          "block": "E3",
+          "times": [
+            4.0,
+            7.0
+          ],
+          "block_size": 2,
+          "cartograph_score": 0.0,
+          "sigma_local": 0.0,
+          "disagreement_score": 0.5381397190032742,
+          "topt_score": 0.002246201802529714,
+          "oracle_margin": 2.122374400438325,
+          "identified": true,
+          "best_model": "A",
+          "gap": 2.122374400438325
+        }
+      ],
+      "cartograph_pick": {
+        "block": "E1",
+        "times": [
+          0.08333,
+          0.25,
+          0.75
+        ],
+        "block_size": 3,
+        "cartograph_score": 0.0,
+        "sigma_local": 0.0,
+        "disagreement_score": 2.3871301018934,
+        "topt_score": 0.1644438019837749,
+        "oracle_margin": 2.1655569340817244,
+        "identified": true,
+        "best_model": "A",
+        "gap": 2.1655569340817244
+      },
+      "disagreement_pick": {
+        "block": "E1",
+        "times": [
+          0.08333,
+          0.25,
+          0.75
+        ],
+        "block_size": 3,
+        "cartograph_score": 0.0,
+        "sigma_local": 0.0,
+        "disagreement_score": 2.3871301018934,
+        "topt_score": 0.1644438019837749,
+        "oracle_margin": 2.1655569340817244,
+        "identified": true,
+        "best_model": "A",
+        "gap": 2.1655569340817244
+      },
+      "topt_pick": {
+        "block": "E1",
+        "times": [
+          0.08333,
+          0.25,
+          0.75
+        ],
+        "block_size": 3,
+        "cartograph_score": 0.0,
+        "sigma_local": 0.0,
+        "disagreement_score": 2.3871301018934,
+        "topt_score": 0.1644438019837749,
+        "oracle_margin": 2.1655569340817244,
+        "identified": true,
+        "best_model": "A",
+        "gap": 2.1655569340817244
+      },
+      "oracle_best_block": "E2",
+      "oracle_best_margin": 2.221942415270501,
+      "random_expected_oracle_margin": 2.16995791659685
+    },
+    {
+      "series_id": 98354,
+      "label": "Valproic acid oral",
+      "n_points": 13,
+      "max_time": 24.0,
+      "oracle": "A",
+      "full_bics": {
+        "A": 55.5694657681414,
+        "B": 58.134416055295496,
+        "C": 60.696732897560814
+      },
+      "initial_idx": [
+        0,
+        2,
+        5,
+        7,
+        10,
+        12
+      ],
+      "initial_times": [
+        0.0,
+        1.0,
+        3.0,
+        6.0,
+        12.0,
+        24.0
+      ],
+      "initial_best_model": "A",
+      "initial_gap": 1.7918646628383499,
+      "initial_oracle_margin": 1.7918646628383499,
+      "unresolved_dim": 1,
+      "tau": 0.0373263488687123,
+      "singular_values": [
+        0.1866317443435615,
+        0.020424940442911665
+      ],
+      "candidate_results": [
+        {
+          "block": "E1",
+          "times": [
+            0.5,
+            1.5,
+            2.0
+          ],
+          "block_size": 3,
+          "cartograph_score": 0.06706005506452897,
+          "sigma_local": 0.25895956260491515,
+          "disagreement_score": 0.09573170964594305,
+          "topt_score": 0.0008614976600680696,
+          "oracle_margin": 2.1973116674284228,
+          "identified": true,
+          "best_model": "A",
+          "gap": 2.1973116674284228
+        },
+        {
+          "block": "E2",
+          "times": [
+            4.0,
+            8.0
+          ],
+          "block_size": 2,
+          "cartograph_score": 6.891155352989273e-05,
+          "sigma_local": 0.00830129830387348,
+          "disagreement_score": 0.01161087729673624,
+          "topt_score": 1.2404063827260668e-06,
+          "oracle_margin": 2.07945134067149,
+          "identified": true,
+          "best_model": "A",
+          "gap": 2.07945134067149
+        },
+        {
+          "block": "E3",
+          "times": [
+            10.0,
+            16.0
+          ],
+          "block_size": 2,
+          "cartograph_score": 0.0001242365280540544,
+          "sigma_local": 0.01114614408905853,
+          "disagreement_score": 0.01915275757718336,
+          "topt_score": 2.7526853338467544e-07,
+          "oracle_margin": 2.079949323884513,
+          "identified": true,
+          "best_model": "A",
+          "gap": 2.079949323884513
+        }
+      ],
+      "cartograph_pick": {
+        "block": "E1",
+        "times": [
+          0.5,
+          1.5,
+          2.0
+        ],
+        "block_size": 3,
+        "cartograph_score": 0.06706005506452897,
+        "sigma_local": 0.25895956260491515,
+        "disagreement_score": 0.09573170964594305,
+        "topt_score": 0.0008614976600680696,
+        "oracle_margin": 2.1973116674284228,
+        "identified": true,
+        "best_model": "A",
+        "gap": 2.1973116674284228
+      },
+      "disagreement_pick": {
+        "block": "E1",
+        "times": [
+          0.5,
+          1.5,
+          2.0
+        ],
+        "block_size": 3,
+        "cartograph_score": 0.06706005506452897,
+        "sigma_local": 0.25895956260491515,
+        "disagreement_score": 0.09573170964594305,
+        "topt_score": 0.0008614976600680696,
+        "oracle_margin": 2.1973116674284228,
+        "identified": true,
+        "best_model": "A",
+        "gap": 2.1973116674284228
+      },
+      "topt_pick": {
+        "block": "E1",
+        "times": [
+          0.5,
+          1.5,
+          2.0
+        ],
+        "block_size": 3,
+        "cartograph_score": 0.06706005506452897,
+        "sigma_local": 0.25895956260491515,
+        "disagreement_score": 0.09573170964594305,
+        "topt_score": 0.0008614976600680696,
+        "oracle_margin": 2.1973116674284228,
+        "identified": true,
+        "best_model": "A",
+        "gap": 2.1973116674284228
+      },
+      "oracle_best_block": "E1",
+      "oracle_best_margin": 2.1973116674284228,
+      "random_expected_oracle_margin": 2.118904110661475
+    },
+    {
+      "series_id": 32514,
+      "label": "Glycine oral",
+      "n_points": 10,
+      "max_time": 24.0,
+      "oracle": "A",
+      "full_bics": {
+        "A": 46.825940079759455,
+        "B": 49.13200984676051,
+        "C": 51.425740761918135
+      },
+      "initial_idx": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9
+      ],
+      "initial_times": [
+        0.0,
+        0.5,
+        2.0,
+        4.0,
+        12.0,
+        24.0
+      ],
+      "initial_best_model": "A",
+      "initial_gap": 1.7917389871452798,
+      "initial_oracle_margin": 1.7917389871452798,
+      "unresolved_dim": 1,
+      "tau": 0.0813606943462275,
+      "singular_values": [
+        0.40680347173113746,
+        0.003310105285939893
+      ],
+      "candidate_results": [
+        {
+          "block": "E1",
+          "times": [
+            0.25,
+            1.0
+          ],
+          "block_size": 2,
+          "cartograph_score": 0.0001457216430235653,
+          "sigma_local": 0.012071521984553784,
+          "disagreement_score": 0.0452972315933145,
+          "topt_score": 1.8071838012566468e-06,
+          "oracle_margin": 2.080591130654021,
+          "identified": true,
+          "best_model": "A",
+          "gap": 2.080591130654021
+        },
+        {
+          "block": "E2",
+          "times": [
+            8.0
+          ],
+          "block_size": 1,
+          "cartograph_score": 1.8231194758805044e-07,
+          "sigma_local": 0.00042698003183761467,
+          "disagreement_score": 0.07346251064332159,
+          "topt_score": 1.1167072716526859e-08,
+          "oracle_margin": 1.9459132147237526,
+          "identified": false,
+          "best_model": "A",
+          "gap": 1.9459132147237526
+        },
+        {
+          "block": "E3",
+          "times": [
+            16.0
+          ],
+          "block_size": 1,
+          "cartograph_score": 1.172843981545259e-06,
+          "sigma_local": 0.001082979215657096,
+          "disagreement_score": 0.052002215288453314,
+          "topt_score": 1.6175077019476443e-10,
+          "oracle_margin": 1.9459030724575115,
+          "identified": false,
+          "best_model": "A",
+          "gap": 1.9459030724575115
+        }
+      ],
+      "cartograph_pick": {
+        "block": "E1",
+        "times": [
+          0.25,
+          1.0
+        ],
+        "block_size": 2,
+        "cartograph_score": 0.0001457216430235653,
+        "sigma_local": 0.012071521984553784,
+        "disagreement_score": 0.0452972315933145,
+        "topt_score": 1.8071838012566468e-06,
+        "oracle_margin": 2.080591130654021,
+        "identified": true,
+        "best_model": "A",
+        "gap": 2.080591130654021
+      },
+      "disagreement_pick": {
+        "block": "E2",
+        "times": [
+          8.0
+        ],
+        "block_size": 1,
+        "cartograph_score": 1.8231194758805044e-07,
+        "sigma_local": 0.00042698003183761467,
+        "disagreement_score": 0.07346251064332159,
+        "topt_score": 1.1167072716526859e-08,
+        "oracle_margin": 1.9459132147237526,
+        "identified": false,
+        "best_model": "A",
+        "gap": 1.9459132147237526
+      },
+      "topt_pick": {
+        "block": "E1",
+        "times": [
+          0.25,
+          1.0
+        ],
+        "block_size": 2,
+        "cartograph_score": 0.0001457216430235653,
+        "sigma_local": 0.012071521984553784,
+        "disagreement_score": 0.0452972315933145,
+        "topt_score": 1.8071838012566468e-06,
+        "oracle_margin": 2.080591130654021,
+        "identified": true,
+        "best_model": "A",
+        "gap": 2.080591130654021
+      },
+      "oracle_best_block": "E1",
+      "oracle_best_margin": 2.080591130654021,
+      "random_expected_oracle_margin": 1.9908024726117617
+    }
+  ],
+  "skipped_series": [
+    {
+      "series_id": 65743,
+      "label": "Chloroform oral",
+      "error": "RuntimeError: Failed to fit model B"
+    },
+    {
+      "series_id": 32548,
+      "label": "Miconazole oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32549,
+      "label": "Miconazole oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 98239,
+      "label": "Quinidine gluconate oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 98443,
+      "label": "Disulfate ion oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 98460,
+      "label": "Disulfate ion oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32476,
+      "label": "Chlorogenic acid oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32477,
+      "label": "Chlorogenic acid oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32482,
+      "label": "D-Carnosine oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32483,
+      "label": "D-Carnosine oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32652,
+      "label": "Ciprofloxacin oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32653,
+      "label": "Ciprofloxacin oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32522,
+      "label": "Isopsoralen oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 98278,
+      "label": "Caffeine, citrated oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 97578,
+      "label": "5,5-Diphenylhydantoin oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 97579,
+      "label": "5,5-Diphenylhydantoin oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 97580,
+      "label": "5,5-Diphenylhydantoin oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 97581,
+      "label": "5,5-Diphenylhydantoin oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 97557,
+      "label": "Diclofenac oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32436,
+      "label": "Acetaminophen oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32437,
+      "label": "Acetaminophen oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 98157,
+      "label": "Nilvadipine oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 98158,
+      "label": "Nilvadipine oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 98159,
+      "label": "Nilvadipine oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32602,
+      "label": "Sulfasalazine oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32603,
+      "label": "Sulfasalazine oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32484,
+      "label": "Dabigatran oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32485,
+      "label": "Dabigatran oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 97989,
+      "label": "Diltiazem oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 97993,
+      "label": "Diltiazem oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 97994,
+      "label": "Diltiazem oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32664,
+      "label": "Diazepam oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32665,
+      "label": "Diazepam oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32678,
+      "label": "Fexofenadine oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32679,
+      "label": "Fexofenadine oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32714,
+      "label": "Oxycodone oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32715,
+      "label": "Oxycodone oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32584,
+      "label": "Quinotolast oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32585,
+      "label": "Quinotolast oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 97829,
+      "label": "Alprazolam oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 97832,
+      "label": "Alprazolam oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 97835,
+      "label": "Alprazolam oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32710,
+      "label": "Nitrazepam oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32711,
+      "label": "Nitrazepam oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32544,
+      "label": "Methyl methacrylate oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32545,
+      "label": "Methyl methacrylate oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32450,
+      "label": "Aspirin oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32451,
+      "label": "Aspirin oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32614,
+      "label": "Terguride oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32615,
+      "label": "Terguride oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32666,
+      "label": "Diisobutyl ketone oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32667,
+      "label": "Diisobutyl ketone oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32674,
+      "label": "Ellagic acid oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32675,
+      "label": "Ellagic acid oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 98453,
+      "label": "Disulfate ion oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 98470,
+      "label": "Disulfate ion oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32446,
+      "label": "Apixaban oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32447,
+      "label": "Apixaban oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32588,
+      "label": "Rivaroxaban oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32589,
+      "label": "Rivaroxaban oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32746,
+      "label": "Tedizolid oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32747,
+      "label": "Tedizolid oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32576,
+      "label": "Pranlukast oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32577,
+      "label": "Pranlukast oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32618,
+      "label": "Theophylline oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32619,
+      "label": "Theophylline oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 97995,
+      "label": "Diltiazem oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32532,
+      "label": "Lemildipine oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32533,
+      "label": "Lemildipine oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32702,
+      "label": "Methylphenidate oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32703,
+      "label": "Methylphenidate oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32758,
+      "label": "Zolpidem oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32759,
+      "label": "Zolpidem oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32572,
+      "label": "Pitavastatin oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32573,
+      "label": "Pitavastatin oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32752,
+      "label": "Triazolam oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32753,
+      "label": "Triazolam oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32704,
+      "label": "Morphine oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32705,
+      "label": "Morphine oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 97828,
+      "label": "Alprazolam oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 97834,
+      "label": "Alprazolam oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32490,
+      "label": "Digoxin oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32491,
+      "label": "Digoxin oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32494,
+      "label": "Domitroban oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32495,
+      "label": "Domitroban oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32734,
+      "label": "Scopoletin oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 32735,
+      "label": "Scopoletin oral",
+      "error": "RuntimeError: Failed to fit model A"
+    },
+    {
+      "series_id": 97570,
+      "label": "Ondansetron hydrochloride dihydrate oral",
+      "error": "RuntimeError: Failed to fit model A"
+    }
+  ],
+  "summary": {
+    "n_series": 8,
+    "n_active": 5,
+    "n_degenerate": 3,
+    "mean_initial_margin": -15.301461126809599,
+    "mean_cartograph_margin": 7.702754638367183,
+    "mean_disagreement_margin": 7.685919898875899,
+    "mean_topt_margin": 8.57597654478779,
+    "mean_random_margin": 4.287823737531813,
+    "cartograph_hit_rate": 0.5,
+    "disagreement_hit_rate": 0.375,
+    "topt_hit_rate": 0.625,
+    "cart_vs_disagreement": [
+      1,
+      7,
+      0
+    ],
+    "cart_vs_topt": [
+      0,
+      7,
+      1
+    ],
+    "topt_vs_disagreement": [
+      2,
+      6,
+      0
+    ],
+    "active_mean_initial_margin": 4.988312309896014,
+    "active_mean_cartograph_margin": 13.554318183988737,
+    "active_mean_disagreement_margin": 13.527382600802685,
+    "active_mean_topt_margin": 13.554318183988737,
+    "active_mean_random_margin": 7.989612600430076,
+    "active_cartograph_hit_rate": 0.8,
+    "active_disagreement_hit_rate": 0.6,
+    "active_topt_hit_rate": 0.8,
+    "active_cart_vs_disagreement": [
+      1,
+      4,
+      0
+    ],
+    "active_cart_vs_topt": [
+      0,
+      5,
+      0
+    ],
+    "active_topt_vs_disagreement": [
+      1,
+      4,
+      0
+    ]
+  },
+  "artifacts": {
+    "figure_1_method_summary": "/Users/neelshah/Downloads/ai4science/outputs/real_data_topt/figure_1_method_summary.png",
+    "benchmark_results_json": "/Users/neelshah/Downloads/ai4science/outputs/real_data_topt/benchmark_results.json",
+    "benchmark_summary_markdown": "/Users/neelshah/Downloads/ai4science/outputs/real_data_topt/benchmark_summary.md",
+    "final_and_latest_results": "/Users/neelshah/Downloads/ai4science/outputs/real_data_topt/final_and_latest_results.md"
+  }
+}

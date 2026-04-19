@@ -1,0 +1,168 @@
+{
+  "latest_run": {
+    "timestamp_utc": "2026-03-26T10:02:14.137115+00:00",
+    "dose": 100.0,
+    "t_end": 24.0,
+    "tau_ratio": 0.2,
+    "initial_experiment": "e0",
+    "parameters": {
+      "A": {
+        "k_a": 0.8,
+        "k_e": 0.18,
+        "V": 20.0
+      },
+      "B": {
+        "k_tr": 1.2,
+        "k_a": 0.8,
+        "k_e": 0.18,
+        "V": 20.0
+      },
+      "C": {
+        "k_a": 0.7,
+        "k_10": 0.16,
+        "k_12": 0.2,
+        "k_21": 0.25,
+        "V_c": 18.0
+      },
+      "truth": {
+        "k_tr": 1.6,
+        "k_a": 1.0,
+        "k_10": 0.16,
+        "k_12": 0.2,
+        "k_21": 0.25,
+        "V_c": 18.5
+      }
+    },
+    "initial_metrics": {
+      "singular_values": [
+        0.47978891635571547,
+        0.07917922208291155
+      ],
+      "tau": 0.0959577832711431,
+      "tau_reference": 0.0959577832711431,
+      "unresolved_dim": 1,
+      "unresolved_dim_fixed": 1,
+      "sigma_min": 0.07917922208291155,
+      "sigma_ratio": 0.1650292855539999
+    },
+    "initial_ambiguity": {
+      "bc_feature_distance": 0.26581559737650606,
+      "bc_sampled_curve_distance": 1.547359016616615,
+      "truth_residuals_e0": {
+        "A": 0.31239601307857273,
+        "B": 0.14163024506382133,
+        "C": 0.14132618254673637
+      }
+    },
+    "selected_experiment": "A",
+    "disagreement_winner": "A",
+    "candidate_scores": [
+      {
+        "experiment": "A",
+        "score": 0.8440168809652017,
+        "sigma_min": 0.9187039136551024,
+        "disagreement_mag": 2.3862251668108048
+      },
+      {
+        "experiment": "C",
+        "score": 0.061383247236587134,
+        "sigma_min": 0.2477564272356766,
+        "disagreement_mag": 1.2237778319862413
+      },
+      {
+        "experiment": "B",
+        "score": 0.006167482916883789,
+        "sigma_min": 0.07853332360777678,
+        "disagreement_mag": 0.916630579979446
+      }
+    ],
+    "tau_ablation": [
+      {
+        "tau_ratio": 0.18,
+        "unresolved_dim": 1,
+        "winner": "A"
+      },
+      {
+        "tau_ratio": 0.2,
+        "unresolved_dim": 1,
+        "winner": "A"
+      },
+      {
+        "tau_ratio": 0.22,
+        "unresolved_dim": 1,
+        "winner": "A"
+      }
+    ],
+    "update_metrics": {
+      "A": {
+        "singular_values": [
+          1.0591440733794286,
+          0.5340918603101497
+        ],
+        "tau": 0.21182881467588574,
+        "tau_reference": 0.0959577832711431,
+        "unresolved_dim": 0,
+        "unresolved_dim_fixed": 0,
+        "sigma_min": 0.5340918603101497,
+        "sigma_ratio": 0.5042674304035086,
+        "sigma_min_gain": 0.4549126382272381,
+        "sigma_ratio_gain": 0.33923814484950876
+      },
+      "B": {
+        "singular_values": [
+          0.6795437174289808,
+          0.11150937887033952
+        ],
+        "tau": 0.13590874348579615,
+        "tau_reference": 0.0959577832711431,
+        "unresolved_dim": 1,
+        "unresolved_dim_fixed": 0,
+        "sigma_min": 0.11150937887033952,
+        "sigma_ratio": 0.16409448871402946,
+        "sigma_min_gain": 0.03233015678742797,
+        "sigma_ratio_gain": -0.000934796839970442
+      },
+      "C": {
+        "singular_values": [
+          0.7620207633809102,
+          0.17377904119616366
+        ],
+        "tau": 0.15240415267618204,
+        "tau_reference": 0.0959577832711431,
+        "unresolved_dim": 0,
+        "unresolved_dim_fixed": 0,
+        "sigma_min": 0.17377904119616366,
+        "sigma_ratio": 0.2280502704744503,
+        "sigma_min_gain": 0.09459981911325212,
+        "sigma_ratio_gain": 0.06302098492045041
+      }
+    },
+    "selected_residuals": {
+      "A": {
+        "truth_resid": 1.052456216840942,
+        "failure_resid": 1.1028749898768568,
+        "failure_gap": 0.05041877303591491
+      },
+      "B": {
+        "truth_resid": 0.13324397707641555,
+        "failure_resid": 0.2590304495364857,
+        "failure_gap": 0.12578647246007013
+      },
+      "C": {
+        "truth_resid": 1.0009716331070584,
+        "failure_resid": 1.008092662755193,
+        "failure_gap": 0.007121029648134547
+      }
+    },
+    "artifacts": {
+      "figure_1_initial_curves": "outputs/pk_first_pass/figure_1_initial_curves.png",
+      "figure_2_acquisition_scores": "outputs/pk_first_pass/figure_2_acquisition_scores.png",
+      "figure_3_update_metrics": "outputs/pk_first_pass/figure_3_update_metrics.png",
+      "figure_4_selected_experiment_curves": "outputs/pk_first_pass/figure_4_selected_experiment_curves.png",
+      "figure_5_feature_space_summary": "outputs/pk_first_pass/figure_5_feature_space_summary.png",
+      "figure_6_failure_residuals": "outputs/pk_first_pass/figure_6_failure_residuals.png",
+      "latest_results_json": "outputs/pk_first_pass/latest_results.json",
+      "final_and_latest_results_md": "outputs/pk_first_pass/final_and_latest_results.md"
+    }
+  }
+}

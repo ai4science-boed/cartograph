@@ -1,0 +1,685 @@
+{
+  "timestamp_utc": "2026-03-27T21:00:23.262772+00:00",
+  "dataset_path": "data/cvtdb_v2_0_0_no_audit.sqlite",
+  "identification_margin": 2.0,
+  "series_results": [
+    {
+      "series_id": 122,
+      "label": "1,2-Dichloroethane oral",
+      "oracle": "A",
+      "full_bics": {
+        "A": -73.16611425891627,
+        "B": -41.42995385597735,
+        "C": -68.91523840138036
+      },
+      "times": [
+        0.0,
+        0.03333,
+        0.06667,
+        0.1,
+        0.16667,
+        0.19215,
+        0.21667,
+        0.26667,
+        0.31667,
+        0.36667,
+        0.41667,
+        0.5,
+        0.7778,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5,
+        4.0,
+        4.5,
+        5.0
+      ],
+      "conc": [
+        0.0,
+        5.24346,
+        10.8653,
+        13.32496,
+        12.59549,
+        12.32536,
+        11.35261,
+        11.9475,
+        11.78563,
+        11.67782,
+        11.19155,
+        10.84068,
+        9.35556,
+        6.27583,
+        4.19743,
+        4.3623,
+        3.60824,
+        1.90819,
+        2.72171,
+        1.45414,
+        0.8622,
+        0.70271
+      ],
+      "initial_idx": [
+        0,
+        4,
+        8,
+        13,
+        17,
+        21
+      ],
+      "initial_times": [
+        0.0,
+        0.16667,
+        0.31667,
+        1.0,
+        3.0,
+        5.0
+      ],
+      "initial_best_model": "C",
+      "initial_gap": 78.09130709666324,
+      "initial_oracle_margin": -78.09130709666324,
+      "candidate_results": [
+        {
+          "block": "E1",
+          "times": [
+            0.03333,
+            0.06667,
+            0.1,
+            0.19215,
+            0.21667,
+            0.26667
+          ],
+          "cartograph_score": 0.0,
+          "sigma_local": 0.0,
+          "disagreement_score": 1.9254063964710384,
+          "oracle_margin": -3.6781444465746347,
+          "identified": false,
+          "best_model": "C",
+          "best_bic": -48.44810581381401,
+          "gap": 3.6781444465746347
+        },
+        {
+          "block": "E2",
+          "times": [
+            0.36667,
+            0.41667,
+            0.5,
+            0.7778,
+            1.5
+          ],
+          "cartograph_score": 0.0,
+          "sigma_local": 0.0,
+          "disagreement_score": 0.06242062153686173,
+          "oracle_margin": -11.572456464779862,
+          "identified": false,
+          "best_model": "C",
+          "best_bic": -51.73270650150859,
+          "gap": 11.572456464779862
+        },
+        {
+          "block": "E3",
+          "times": [
+            2.0,
+            2.5,
+            3.5,
+            4.0,
+            4.5
+          ],
+          "cartograph_score": 0.0,
+          "sigma_local": 0.0,
+          "disagreement_score": 0.07217878809892456,
+          "oracle_margin": 3.3076308047902288,
+          "identified": true,
+          "best_model": "A",
+          "best_bic": -31.802473673592004,
+          "gap": 3.3076308047902288
+        }
+      ],
+      "cartograph_pick": {
+        "block": "E1",
+        "times": [
+          0.03333,
+          0.06667,
+          0.1,
+          0.19215,
+          0.21667,
+          0.26667
+        ],
+        "cartograph_score": 0.0,
+        "sigma_local": 0.0,
+        "disagreement_score": 1.9254063964710384,
+        "oracle_margin": -3.6781444465746347,
+        "identified": false,
+        "best_model": "C",
+        "best_bic": -48.44810581381401,
+        "gap": 3.6781444465746347
+      },
+      "disagreement_pick": {
+        "block": "E1",
+        "times": [
+          0.03333,
+          0.06667,
+          0.1,
+          0.19215,
+          0.21667,
+          0.26667
+        ],
+        "cartograph_score": 0.0,
+        "sigma_local": 0.0,
+        "disagreement_score": 1.9254063964710384,
+        "oracle_margin": -3.6781444465746347,
+        "identified": false,
+        "best_model": "C",
+        "best_bic": -48.44810581381401,
+        "gap": 3.6781444465746347
+      },
+      "oracle_best_block": "E3",
+      "oracle_best_margin": 3.3076308047902288,
+      "random_expected_oracle_margin": -3.9809900355214225,
+      "random_identification_rate": 0.3333333333333333
+    },
+    {
+      "series_id": 120,
+      "label": "Dichloromethane oral",
+      "oracle": "A",
+      "full_bics": {
+        "A": -65.7654362628923,
+        "B": -41.63477281531075,
+        "C": -63.31146001518825
+      },
+      "times": [
+        0.0,
+        0.03333,
+        0.06667,
+        0.1,
+        0.14384,
+        0.16667,
+        0.21667,
+        0.26667,
+        0.31667,
+        0.36667,
+        0.41667,
+        0.5,
+        0.76712,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5,
+        4.0,
+        5.0
+      ],
+      "conc": [
+        0.0,
+        15.6556,
+        29.7966,
+        35.65435,
+        37.26982,
+        38.68327,
+        39.89429,
+        41.00443,
+        39.7912,
+        38.27508,
+        34.63775,
+        36.05009,
+        27.56026,
+        24.01993,
+        14.91892,
+        9.35326,
+        8.0604,
+        9.83811,
+        6.89885,
+        5.97966,
+        1.81818
+      ],
+      "initial_idx": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20
+      ],
+      "initial_times": [
+        0.0,
+        0.14384,
+        0.31667,
+        0.76712,
+        2.5,
+        5.0
+      ],
+      "initial_best_model": "C",
+      "initial_gap": 71.06467702766437,
+      "initial_oracle_margin": -71.06467702766437,
+      "candidate_results": [
+        {
+          "block": "E1",
+          "times": [
+            0.03333,
+            0.06667,
+            0.1,
+            0.16667,
+            0.21667
+          ],
+          "cartograph_score": 0.0,
+          "sigma_local": 0.0,
+          "disagreement_score": 1.4866100767989838,
+          "oracle_margin": -4.636966300513322,
+          "identified": false,
+          "best_model": "C",
+          "best_bic": -59.218010812591245,
+          "gap": 4.636966300513322
+        },
+        {
+          "block": "E2",
+          "times": [
+            0.26667,
+            0.36667,
+            0.41667,
+            0.5,
+            1.0
+          ],
+          "cartograph_score": 0.0,
+          "sigma_local": 0.0,
+          "disagreement_score": 0.029722187519388463,
+          "oracle_margin": -10.223131789045581,
+          "identified": false,
+          "best_model": "C",
+          "best_bic": -68.73601271132777,
+          "gap": 10.223131789045581
+        },
+        {
+          "block": "E3",
+          "times": [
+            1.5,
+            2.0,
+            3.0,
+            3.5,
+            4.0
+          ],
+          "cartograph_score": 0.0,
+          "sigma_local": 0.0,
+          "disagreement_score": 0.03382472052468218,
+          "oracle_margin": 3.3567751406449915,
+          "identified": true,
+          "best_model": "A",
+          "best_bic": -26.243663491816086,
+          "gap": 3.3567751406449915
+        }
+      ],
+      "cartograph_pick": {
+        "block": "E1",
+        "times": [
+          0.03333,
+          0.06667,
+          0.1,
+          0.16667,
+          0.21667
+        ],
+        "cartograph_score": 0.0,
+        "sigma_local": 0.0,
+        "disagreement_score": 1.4866100767989838,
+        "oracle_margin": -4.636966300513322,
+        "identified": false,
+        "best_model": "C",
+        "best_bic": -59.218010812591245,
+        "gap": 4.636966300513322
+      },
+      "disagreement_pick": {
+        "block": "E1",
+        "times": [
+          0.03333,
+          0.06667,
+          0.1,
+          0.16667,
+          0.21667
+        ],
+        "cartograph_score": 0.0,
+        "sigma_local": 0.0,
+        "disagreement_score": 1.4866100767989838,
+        "oracle_margin": -4.636966300513322,
+        "identified": false,
+        "best_model": "C",
+        "best_bic": -59.218010812591245,
+        "gap": 4.636966300513322
+      },
+      "oracle_best_block": "E3",
+      "oracle_best_margin": 3.3567751406449915,
+      "random_expected_oracle_margin": -3.8344409829713038,
+      "random_identification_rate": 0.3333333333333333
+    },
+    {
+      "series_id": 123,
+      "label": "Trichloroethylene oral",
+      "oracle": "C",
+      "full_bics": {
+        "A": -6.196357509927546,
+        "B": 8.958994385432753,
+        "C": -56.568754863161296
+      },
+      "times": [
+        0.0,
+        0.03333,
+        0.06667,
+        0.1,
+        0.14476,
+        0.16667,
+        0.21667,
+        0.26667,
+        0.31667,
+        0.36667,
+        0.41667,
+        0.5,
+        0.76935,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5,
+        4.0
+      ],
+      "conc": [
+        0.0,
+        11.12111,
+        13.59267,
+        12.9592,
+        10.18729,
+        7.73208,
+        5.02353,
+        3.75663,
+        2.79068,
+        2.10994,
+        1.71431,
+        1.35066,
+        0.95659,
+        0.76843,
+        0.50306,
+        0.33281,
+        0.32094,
+        0.21402,
+        0.05964,
+        0.04774
+      ],
+      "initial_idx": [
+        0,
+        4,
+        8,
+        11,
+        15,
+        19
+      ],
+      "initial_times": [
+        0.0,
+        0.14476,
+        0.31667,
+        0.5,
+        2.0,
+        4.0
+      ],
+      "initial_best_model": "C",
+      "initial_gap": 32.082504863299214,
+      "initial_oracle_margin": 32.082504863299214,
+      "candidate_results": [
+        {
+          "block": "E1",
+          "times": [
+            0.03333,
+            0.06667,
+            0.1,
+            0.16667,
+            0.21667
+          ],
+          "cartograph_score": 1.1331191775833303,
+          "sigma_local": 1.0644807079432346,
+          "disagreement_score": 9.703794613769322,
+          "oracle_margin": 55.558382316993836,
+          "identified": true,
+          "best_model": "C",
+          "best_bic": -57.67180190078932,
+          "gap": 55.558382316993836
+        },
+        {
+          "block": "E2",
+          "times": [
+            0.26667,
+            0.36667,
+            0.41667,
+            0.76935,
+            1.0
+          ],
+          "cartograph_score": 0.0035698395076059525,
+          "sigma_local": 0.05974813392572151,
+          "disagreement_score": 1.2912069478857662,
+          "oracle_margin": 59.27566664851537,
+          "identified": true,
+          "best_model": "C",
+          "best_bic": -68.69436719184293,
+          "gap": 59.27566664851537
+        },
+        {
+          "block": "E3",
+          "times": [
+            1.5,
+            2.5,
+            3.0,
+            3.5
+          ],
+          "cartograph_score": 0.0003302424264990776,
+          "sigma_local": 0.01817257346935424,
+          "disagreement_score": 0.26113988994246723,
+          "oracle_margin": 9.56386519534767,
+          "identified": true,
+          "best_model": "C",
+          "best_bic": -18.158831860867245,
+          "gap": 9.56386519534767
+        }
+      ],
+      "cartograph_pick": {
+        "block": "E1",
+        "times": [
+          0.03333,
+          0.06667,
+          0.1,
+          0.16667,
+          0.21667
+        ],
+        "cartograph_score": 1.1331191775833303,
+        "sigma_local": 1.0644807079432346,
+        "disagreement_score": 9.703794613769322,
+        "oracle_margin": 55.558382316993836,
+        "identified": true,
+        "best_model": "C",
+        "best_bic": -57.67180190078932,
+        "gap": 55.558382316993836
+      },
+      "disagreement_pick": {
+        "block": "E1",
+        "times": [
+          0.03333,
+          0.06667,
+          0.1,
+          0.16667,
+          0.21667
+        ],
+        "cartograph_score": 1.1331191775833303,
+        "sigma_local": 1.0644807079432346,
+        "disagreement_score": 9.703794613769322,
+        "oracle_margin": 55.558382316993836,
+        "identified": true,
+        "best_model": "C",
+        "best_bic": -57.67180190078932,
+        "gap": 55.558382316993836
+      },
+      "oracle_best_block": "E2",
+      "oracle_best_margin": 59.27566664851537,
+      "random_expected_oracle_margin": 41.46597138695229,
+      "random_identification_rate": 1.0
+    },
+    {
+      "series_id": 65744,
+      "label": "Chloroform oral",
+      "oracle": "A",
+      "full_bics": {
+        "A": -33.69921187577561,
+        "B": -31.813344759087986,
+        "C": -30.187587988117535
+      },
+      "times": [
+        0.0,
+        0.03333,
+        0.06667,
+        0.1,
+        0.13697,
+        0.16667,
+        0.21667,
+        0.26667,
+        0.31667,
+        0.36667,
+        0.41667,
+        0.5,
+        0.74989,
+        1.0,
+        1.5,
+        2.0,
+        2.5
+      ],
+      "conc": [
+        0.0,
+        0.75426,
+        4.377,
+        5.92075,
+        5.07855,
+        4.77144,
+        3.96427,
+        3.48166,
+        3.58676,
+        3.20943,
+        2.93735,
+        2.84062,
+        2.05921,
+        1.33916,
+        0.83764,
+        0.49413,
+        0.28217
+      ],
+      "initial_idx": [
+        0,
+        3,
+        6,
+        10,
+        13,
+        16
+      ],
+      "initial_times": [
+        0.0,
+        0.1,
+        0.21667,
+        0.41667,
+        1.0,
+        2.5
+      ],
+      "initial_best_model": "C",
+      "initial_gap": 14.37901002692479,
+      "initial_oracle_margin": -14.37901002692479,
+      "candidate_results": [
+        {
+          "block": "E1",
+          "times": [
+            0.03333,
+            0.06667,
+            0.13697,
+            0.16667
+          ],
+          "cartograph_score": 0.27136968214058693,
+          "sigma_local": 0.5209315522605508,
+          "disagreement_score": 2.2237835504235672,
+          "oracle_margin": -0.9327433030274541,
+          "identified": false,
+          "best_model": "B",
+          "best_bic": -14.014586474284908,
+          "gap": 0.9327433030274541
+        },
+        {
+          "block": "E2",
+          "times": [
+            0.26667,
+            0.31667,
+            0.36667,
+            0.5
+          ],
+          "cartograph_score": 0.0005537414960158984,
+          "sigma_local": 0.023531712560200514,
+          "disagreement_score": 0.19874802408645983,
+          "oracle_margin": -15.792255350713098,
+          "identified": false,
+          "best_model": "C",
+          "best_bic": -47.3836668565542,
+          "gap": 15.792255350713098
+        },
+        {
+          "block": "E3",
+          "times": [
+            0.74989,
+            1.5,
+            2.0
+          ],
+          "cartograph_score": 0.00027447375205466996,
+          "sigma_local": 0.01656724938107319,
+          "disagreement_score": 0.04710603364986927,
+          "oracle_margin": -19.205632228320432,
+          "identified": false,
+          "best_model": "C",
+          "best_bic": -46.98064509974067,
+          "gap": 19.205632228320432
+        }
+      ],
+      "cartograph_pick": {
+        "block": "E1",
+        "times": [
+          0.03333,
+          0.06667,
+          0.13697,
+          0.16667
+        ],
+        "cartograph_score": 0.27136968214058693,
+        "sigma_local": 0.5209315522605508,
+        "disagreement_score": 2.2237835504235672,
+        "oracle_margin": -0.9327433030274541,
+        "identified": false,
+        "best_model": "B",
+        "best_bic": -14.014586474284908,
+        "gap": 0.9327433030274541
+      },
+      "disagreement_pick": {
+        "block": "E1",
+        "times": [
+          0.03333,
+          0.06667,
+          0.13697,
+          0.16667
+        ],
+        "cartograph_score": 0.27136968214058693,
+        "sigma_local": 0.5209315522605508,
+        "disagreement_score": 2.2237835504235672,
+        "oracle_margin": -0.9327433030274541,
+        "identified": false,
+        "best_model": "B",
+        "best_bic": -14.014586474284908,
+        "gap": 0.9327433030274541
+      },
+      "oracle_best_block": "E1",
+      "oracle_best_margin": -0.9327433030274541,
+      "random_expected_oracle_margin": -11.976876960686994,
+      "random_identification_rate": 0.0
+    }
+  ],
+  "skipped_series": [],
+  "artifacts": {
+    "figure_1_oracle_margins": "outputs/real_data_one_step/figure_1_oracle_margins.png",
+    "one_step_results_json": "outputs/real_data_one_step/one_step_results.json",
+    "one_step_summary_md": "outputs/real_data_one_step/one_step_summary.md"
+  }
+}

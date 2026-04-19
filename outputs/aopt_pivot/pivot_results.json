@@ -1,0 +1,1880 @@
+{
+  "timestamp_utc": "2026-03-28T07:13:38.817657+00:00",
+  "cascade": {
+    "timestamp_utc": "2026-03-28T07:09:50.353171+00:00",
+    "dimensions": [
+      2,
+      4,
+      8,
+      16
+    ],
+    "n_seeds": 24,
+    "rounds": 3,
+    "timing_repeats": 300,
+    "results": {
+      "2": {
+        "dimension": 2,
+        "n_seeds": 24,
+        "n_truths": 6,
+        "n_trials": 144,
+        "initial_unresolved_dim": 1,
+        "initial_tau": 0.0776468813274094,
+        "initial_singular_values": [
+          0.388234406637047,
+          0.05749795949312923
+        ],
+        "summary": {
+          "cartograph": {
+            "mean_regret": 0.05179013574143166,
+            "se_regret": 0.004925950050666414,
+            "mean_hidden_best_match": 0.4444444444444444,
+            "se_hidden_best_match": 0.04155319955593143,
+            "mean_final_mse": 0.04598011641611844,
+            "se_final_mse": 0.004330990625665915,
+            "sequence": [
+              "E6",
+              "E4",
+              "E5",
+              "E8",
+              "E2",
+              "E7",
+              "E3",
+              "E1"
+            ],
+            "avg_sequence_ms": 0.20009287356515415,
+            "avg_score_ms": 0.005558135376809837
+          },
+          "aopt": {
+            "mean_regret": 0.05179013574143166,
+            "se_regret": 0.004925950050666414,
+            "mean_hidden_best_match": 0.4444444444444444,
+            "se_hidden_best_match": 0.04155319955593143,
+            "mean_final_mse": 0.04598011641611844,
+            "se_final_mse": 0.004330990625665915,
+            "sequence": [
+              "E6",
+              "E4",
+              "E5",
+              "E8",
+              "E2",
+              "E7",
+              "E3",
+              "E1"
+            ],
+            "avg_sequence_ms": 1.2319970902656983,
+            "avg_score_ms": 0.0342221413962694
+          },
+          "disagreement": {
+            "mean_regret": 0.05179013574143166,
+            "se_regret": 0.004925950050666414,
+            "mean_hidden_best_match": 0.4444444444444444,
+            "se_hidden_best_match": 0.04155319955593143,
+            "mean_final_mse": 0.045980116416118454,
+            "se_final_mse": 0.004330990625665916,
+            "sequence": [
+              "E6",
+              "E5",
+              "E4",
+              "E8",
+              "E2",
+              "E7",
+              "E3",
+              "E1"
+            ],
+            "avg_sequence_ms": 0.009126193205399128,
+            "avg_score_ms": 0.00025350536681664244
+          }
+        },
+        "pairwise_counts": {
+          "aopt_vs_cartograph": {
+            "wins": 0,
+            "ties": 144,
+            "losses": 0
+          },
+          "aopt_vs_disagreement": {
+            "wins": 0,
+            "ties": 144,
+            "losses": 0
+          }
+        }
+      },
+      "4": {
+        "dimension": 4,
+        "n_seeds": 24,
+        "n_truths": 6,
+        "n_trials": 144,
+        "initial_unresolved_dim": 3,
+        "initial_tau": 0.07004128300114068,
+        "initial_singular_values": [
+          0.3502064150057034,
+          0.06937170967159734,
+          0.0138783313545339,
+          0.001712049407575878
+        ],
+        "summary": {
+          "cartograph": {
+            "mean_regret": 0.3118713049564613,
+            "se_regret": 0.007009743557357283,
+            "mean_hidden_best_match": 0.0,
+            "se_hidden_best_match": 0.0,
+            "mean_final_mse": 0.331537549618167,
+            "se_final_mse": 0.02486541675722347,
+            "sequence": [
+              "E6",
+              "E5",
+              "E8",
+              "E7",
+              "E4",
+              "E3",
+              "E2",
+              "E1"
+            ],
+            "avg_sequence_ms": 0.19895651676051784,
+            "avg_score_ms": 0.005526569910014384
+          },
+          "aopt": {
+            "mean_regret": 0.4182361186532719,
+            "se_regret": 0.02892939059023048,
+            "mean_hidden_best_match": 0.09027777777777778,
+            "se_hidden_best_match": 0.023964965777906952,
+            "mean_final_mse": 0.2846233720641594,
+            "se_final_mse": 0.02267728517960185,
+            "sequence": [
+              "E5",
+              "E6",
+              "E7",
+              "E8",
+              "E4",
+              "E3",
+              "E2",
+              "E1"
+            ],
+            "avg_sequence_ms": 1.393693163311885,
+            "avg_score_ms": 0.0387136989808857
+          },
+          "disagreement": {
+            "mean_regret": 0.3118713049564613,
+            "se_regret": 0.007009743557357283,
+            "mean_hidden_best_match": 0.0,
+            "se_hidden_best_match": 0.0,
+            "mean_final_mse": 0.331537549618167,
+            "se_final_mse": 0.02486541675722347,
+            "sequence": [
+              "E6",
+              "E5",
+              "E8",
+              "E4",
+              "E7",
+              "E3",
+              "E2",
+              "E1"
+            ],
+            "avg_sequence_ms": 0.014943139904062264,
+            "avg_score_ms": 0.0004150872195572851
+          }
+        },
+        "pairwise_counts": {
+          "aopt_vs_cartograph": {
+            "wins": 73,
+            "ties": 0,
+            "losses": 71
+          },
+          "aopt_vs_disagreement": {
+            "wins": 73,
+            "ties": 0,
+            "losses": 71
+          }
+        }
+      },
+      "8": {
+        "dimension": 8,
+        "n_seeds": 24,
+        "n_truths": 6,
+        "n_trials": 144,
+        "initial_unresolved_dim": 6,
+        "initial_tau": 0.0671712235980786,
+        "initial_singular_values": [
+          0.335856117990393,
+          0.09346257709249528,
+          0.019400705915699704,
+          0.00066778454849847,
+          5.369044956608457e-08,
+          4.751632647271536e-10,
+          1.7273459249997678e-10,
+          1.316623446146727e-12
+        ],
+        "summary": {
+          "cartograph": {
+            "mean_regret": 19.940413234919518,
+            "se_regret": 3.642775186220176,
+            "mean_hidden_best_match": 0.020833333333333332,
+            "se_hidden_best_match": 0.011943721631153599,
+            "mean_final_mse": 0.1479273481538792,
+            "se_final_mse": 0.010098488696455892,
+            "sequence": [
+              "E6",
+              "E5",
+              "E8",
+              "E7",
+              "E4",
+              "E3",
+              "E2",
+              "E1"
+            ],
+            "avg_sequence_ms": 0.5555808366140506,
+            "avg_score_ms": 0.01543280101705696
+          },
+          "aopt": {
+            "mean_regret": 0.010249484138958962,
+            "se_regret": 0.0019053618531192746,
+            "mean_hidden_best_match": 0.6527777777777778,
+            "se_hidden_best_match": 0.03981240543717866,
+            "mean_final_mse": 0.14792734815151345,
+            "se_final_mse": 0.010098488696486841,
+            "sequence": [
+              "E8",
+              "E5",
+              "E6",
+              "E7",
+              "E4",
+              "E3",
+              "E2",
+              "E1"
+            ],
+            "avg_sequence_ms": 9.644228990146075,
+            "avg_score_ms": 0.26789524972627987
+          },
+          "disagreement": {
+            "mean_regret": 19.940413234919518,
+            "se_regret": 3.642775186220176,
+            "mean_hidden_best_match": 0.020833333333333332,
+            "se_hidden_best_match": 0.011943721631153599,
+            "mean_final_mse": 0.1479273481538792,
+            "se_final_mse": 0.010098488696455892,
+            "sequence": [
+              "E6",
+              "E5",
+              "E8",
+              "E7",
+              "E4",
+              "E3",
+              "E2",
+              "E1"
+            ],
+            "avg_sequence_ms": 0.013572456664405763,
+            "avg_score_ms": 0.0003770126851223823
+          }
+        },
+        "pairwise_counts": {
+          "aopt_vs_cartograph": {
+            "wins": 129,
+            "ties": 0,
+            "losses": 15
+          },
+          "aopt_vs_disagreement": {
+            "wins": 129,
+            "ties": 0,
+            "losses": 15
+          }
+        }
+      },
+      "16": {
+        "dimension": 16,
+        "n_seeds": 24,
+        "n_truths": 6,
+        "n_trials": 144,
+        "initial_unresolved_dim": 12,
+        "initial_tau": 0.058903424928246906,
+        "initial_singular_values": [
+          0.29451712464123453,
+          0.1995869203091715,
+          0.022628112148108122,
+          0.0012309795377654679,
+          1.5807583290668456e-08,
+          2.820945273818071e-10,
+          1.6670056517406577e-11,
+          3.946142108111154e-12,
+          7.64529510822396e-14,
+          4.883439470631323e-14,
+          4.172842887353359e-14,
+          4.7720123886788106e-15,
+          1.5228174094997716e-16,
+          1.10897383320554e-18
+        ],
+        "summary": {
+          "cartograph": {
+            "mean_regret": 2.8321646476256066,
+            "se_regret": 0.4842520170739264,
+            "mean_hidden_best_match": 0.06944444444444445,
+            "se_hidden_best_match": 0.021257974822832024,
+            "mean_final_mse": 80.11592331686433,
+            "se_final_mse": 13.580129455686615,
+            "sequence": [
+              "E6",
+              "E8",
+              "E5",
+              "E7",
+              "E4",
+              "E3",
+              "E2",
+              "E1"
+            ],
+            "avg_sequence_ms": 1.1472926134592853,
+            "avg_score_ms": 0.03186923926275793
+          },
+          "aopt": {
+            "mean_regret": 0.014246858322691609,
+            "se_regret": 0.0026279650581979533,
+            "mean_hidden_best_match": 0.7222222222222222,
+            "se_hidden_best_match": 0.037455547914624555,
+            "mean_final_mse": 83.98563341637737,
+            "se_final_mse": 12.699807817621029,
+            "sequence": [
+              "E8",
+              "E6",
+              "E7",
+              "E5",
+              "E4",
+              "E3",
+              "E2",
+              "E1"
+            ],
+            "avg_sequence_ms": 46.771773233194835,
+            "avg_score_ms": 1.299215923144301
+          },
+          "disagreement": {
+            "mean_regret": 2.8321646476256066,
+            "se_regret": 0.4842520170739264,
+            "mean_hidden_best_match": 0.06944444444444445,
+            "se_hidden_best_match": 0.021257974822832024,
+            "mean_final_mse": 80.11592331686433,
+            "se_final_mse": 13.580129455686615,
+            "sequence": [
+              "E6",
+              "E8",
+              "E5",
+              "E7",
+              "E4",
+              "E3",
+              "E2",
+              "E1"
+            ],
+            "avg_sequence_ms": 0.01942621657993489,
+            "avg_score_ms": 0.0005396171272204136
+          }
+        },
+        "pairwise_counts": {
+          "aopt_vs_cartograph": {
+            "wins": 120,
+            "ties": 0,
+            "losses": 24
+          },
+          "aopt_vs_disagreement": {
+            "wins": 120,
+            "ties": 0,
+            "losses": 24
+          }
+        }
+      }
+    }
+  },
+  "pk": {
+    "timestamp_utc": "2026-03-28T07:01:29.031292+00:00",
+    "identification_margin": 0.05,
+    "prior_var": 1.0,
+    "noise_var": 1.0,
+    "fallback_to_weakest": false,
+    "method_sequences": {
+      "cartograph": [
+        "E1",
+        "E2",
+        "E4",
+        "E5",
+        "E3",
+        "E7",
+        "E6"
+      ],
+      "aopt": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7"
+      ],
+      "disagreement": [
+        "E2",
+        "E1",
+        "E6",
+        "E7",
+        "E5",
+        "E3",
+        "E4"
+      ]
+    },
+    "summary_rows": [
+      {
+        "truth": "absorption_variant",
+        "family": "B-family perturbed truth",
+        "oracle": "B",
+        "cartograph": 1,
+        "aopt": 1,
+        "disagreement": 2,
+        "random_expected": 4.0
+      },
+      {
+        "truth": "absorption_variant_slow",
+        "family": "B-family slow transit",
+        "oracle": "B",
+        "cartograph": 1,
+        "aopt": 1,
+        "disagreement": 1,
+        "random_expected": 1.1428571428571428
+      },
+      {
+        "truth": "distribution_variant_easy",
+        "family": "C-family perturbed truth",
+        "oracle": "C",
+        "cartograph": 0,
+        "aopt": 0,
+        "disagreement": 0,
+        "random_expected": 0.0
+      },
+      {
+        "truth": "distribution_variant_hard",
+        "family": "C-family perturbed truth",
+        "oracle": "C",
+        "cartograph": 1,
+        "aopt": 1,
+        "disagreement": 1,
+        "random_expected": 1.6
+      },
+      {
+        "truth": "distribution_variant_subtle",
+        "family": "C-family subtle distribution",
+        "oracle": "C",
+        "cartograph": 1,
+        "aopt": 1,
+        "disagreement": 1,
+        "random_expected": 2.4
+      },
+      {
+        "truth": "mixed_absorption",
+        "family": "D-family absorption-leaning mix",
+        "oracle": "A",
+        "cartograph": 2,
+        "aopt": 2,
+        "disagreement": 2,
+        "random_expected": 5.333333333333333
+      },
+      {
+        "truth": "mixed_balanced",
+        "family": "D-family balanced mix",
+        "oracle": "A",
+        "cartograph": 2,
+        "aopt": 2,
+        "disagreement": 2,
+        "random_expected": 5.333333333333333
+      }
+    ],
+    "scenario_details": {
+      "absorption_variant": {
+        "family": "B-family perturbed truth",
+        "truth_params": {
+          "k_tr": 1.45,
+          "k_a": 0.88,
+          "k_e": 0.18,
+          "V": 19.2
+        },
+        "oracle_model": "B",
+        "full_residuals": {
+          "A": 2.0575697655318828,
+          "B": 0.7928274499570258,
+          "C": 3.613908932948265
+        },
+        "cartograph_history": [
+          {
+            "best_model": "A",
+            "residuals": {
+              "A": 0.12871622200060767,
+              "B": 0.29927617559561687,
+              "C": 0.5490901349798448
+            },
+            "gap": 0.1705599535950092,
+            "identified": false,
+            "round": 0,
+            "observed": [
+              "e0"
+            ]
+          },
+          {
+            "best_model": "B",
+            "residuals": {
+              "A": 2.0058888894950924,
+              "B": 0.34559231066917867,
+              "C": 2.1000863857094356
+            },
+            "gap": 1.6602965788259136,
+            "identified": true,
+            "round": 1,
+            "observed": [
+              "e0",
+              "E1"
+            ]
+          }
+        ],
+        "aopt_history": [
+          {
+            "best_model": "A",
+            "residuals": {
+              "A": 0.12871622200060767,
+              "B": 0.29927617559561687,
+              "C": 0.5490901349798448
+            },
+            "gap": 0.1705599535950092,
+            "identified": false,
+            "round": 0,
+            "observed": [
+              "e0"
+            ]
+          },
+          {
+            "best_model": "B",
+            "residuals": {
+              "A": 2.0058888894950924,
+              "B": 0.34559231066917867,
+              "C": 2.1000863857094356
+            },
+            "gap": 1.6602965788259136,
+            "identified": true,
+            "round": 1,
+            "observed": [
+              "e0",
+              "E1"
+            ]
+          }
+        ],
+        "disagreement_history": [
+          {
+            "best_model": "A",
+            "residuals": {
+              "A": 0.12871622200060767,
+              "B": 0.29927617559561687,
+              "C": 0.5490901349798448
+            },
+            "gap": 0.1705599535950092,
+            "identified": false,
+            "round": 0,
+            "observed": [
+              "e0"
+            ]
+          },
+          {
+            "best_model": "A",
+            "residuals": {
+              "A": 0.32864518202532467,
+              "B": 0.3454809804629168,
+              "C": 2.872273342245209
+            },
+            "gap": 0.016835798437592142,
+            "identified": false,
+            "round": 1,
+            "observed": [
+              "e0",
+              "E2"
+            ]
+          },
+          {
+            "best_model": "B",
+            "residuals": {
+              "A": 2.028553678575503,
+              "B": 0.38629641957458255,
+              "C": 3.5155109164504665
+            },
+            "gap": 1.6422572590009203,
+            "identified": true,
+            "round": 2,
+            "observed": [
+              "e0",
+              "E2",
+              "E1"
+            ]
+          }
+        ]
+      },
+      "distribution_variant_easy": {
+        "family": "C-family perturbed truth",
+        "truth_params": {
+          "k_a": 0.68,
+          "k_10": 0.16,
+          "k_12": 0.24,
+          "k_21": 0.3,
+          "V_c": 18.4
+        },
+        "oracle_model": "C",
+        "full_residuals": {
+          "A": 3.143095623755143,
+          "B": 3.5776639589714434,
+          "C": 0.43578582122262655
+        },
+        "cartograph_history": [
+          {
+            "best_model": "C",
+            "residuals": {
+              "A": 0.5914979562824332,
+              "B": 0.41398589797594487,
+              "C": 0.15636376484415893
+            },
+            "gap": 0.25762213313178595,
+            "identified": true,
+            "round": 0,
+            "observed": [
+              "e0"
+            ]
+          }
+        ],
+        "aopt_history": [
+          {
+            "best_model": "C",
+            "residuals": {
+              "A": 0.5914979562824332,
+              "B": 0.41398589797594487,
+              "C": 0.15636376484415893
+            },
+            "gap": 0.25762213313178595,
+            "identified": true,
+            "round": 0,
+            "observed": [
+              "e0"
+            ]
+          }
+        ],
+        "disagreement_history": [
+          {
+            "best_model": "C",
+            "residuals": {
+              "A": 0.5914979562824332,
+              "B": 0.41398589797594487,
+              "C": 0.15636376484415893
+            },
+            "gap": 0.25762213313178595,
+            "identified": true,
+            "round": 0,
+            "observed": [
+              "e0"
+            ]
+          }
+        ]
+      },
+      "distribution_variant_hard": {
+        "family": "C-family perturbed truth",
+        "truth_params": {
+          "k_a": 0.75,
+          "k_10": 0.16,
+          "k_12": 0.24,
+          "k_21": 0.28,
+          "V_c": 18.2
+        },
+        "oracle_model": "C",
+        "full_residuals": {
+          "A": 3.408695452989509,
+          "B": 3.848404367453444,
+          "C": 1.5104045521012899
+        },
+        "cartograph_history": [
+          {
+            "best_model": "C",
+            "residuals": {
+              "A": 1.5709556140741383,
+              "B": 1.5285220441116913,
+              "C": 1.5002835453295182
+            },
+            "gap": 0.028238498782173105,
+            "identified": false,
+            "round": 0,
+            "observed": [
+              "e0"
+            ]
+          },
+          {
+            "best_model": "C",
+            "residuals": {
+              "A": 1.6203449257526057,
+              "B": 2.526744710977845,
+              "C": 1.501023076886063
+            },
+            "gap": 0.11932184886654262,
+            "identified": true,
+            "round": 1,
+            "observed": [
+              "e0",
+              "E1"
+            ]
+          }
+        ],
+        "aopt_history": [
+          {
+            "best_model": "C",
+            "residuals": {
+              "A": 1.5709556140741383,
+              "B": 1.5285220441116913,
+              "C": 1.5002835453295182
+            },
+            "gap": 0.028238498782173105,
+            "identified": false,
+            "round": 0,
+            "observed": [
+              "e0"
+            ]
+          },
+          {
+            "best_model": "C",
+            "residuals": {
+              "A": 1.6203449257526057,
+              "B": 2.526744710977845,
+              "C": 1.501023076886063
+            },
+            "gap": 0.11932184886654262,
+            "identified": true,
+            "round": 1,
+            "observed": [
+              "e0",
+              "E1"
+            ]
+          }
+        ],
+        "disagreement_history": [
+          {
+            "best_model": "C",
+            "residuals": {
+              "A": 1.5709556140741383,
+              "B": 1.5285220441116913,
+              "C": 1.5002835453295182
+            },
+            "gap": 0.028238498782173105,
+            "identified": false,
+            "round": 0,
+            "observed": [
+              "e0"
+            ]
+          },
+          {
+            "best_model": "C",
+            "residuals": {
+              "A": 3.18283294225654,
+              "B": 3.176425091966131,
+              "C": 1.500440137219983
+            },
+            "gap": 1.6759849547461483,
+            "identified": true,
+            "round": 1,
+            "observed": [
+              "e0",
+              "E2"
+            ]
+          }
+        ]
+      },
+      "mixed_balanced": {
+        "family": "D-family balanced mix",
+        "truth_params": {
+          "k_tr": 1.6,
+          "k_a": 1.0,
+          "k_10": 0.16,
+          "k_12": 0.2,
+          "k_21": 0.25,
+          "V_c": 18.5
+        },
+        "oracle_model": "A",
+        "full_residuals": {
+          "A": 1.077021168390354,
+          "B": 2.192918811039775,
+          "C": 2.767104489201768
+        },
+        "cartograph_history": [
+          {
+            "best_model": "C",
+            "residuals": {
+              "A": 0.31239601307857273,
+              "B": 0.14163024506382133,
+              "C": 0.14132618254673637
+            },
+            "gap": 0.000304062517084952,
+            "identified": false,
+            "round": 0,
+            "observed": [
+              "e0"
+            ]
+          },
+          {
+            "best_model": "C",
+            "residuals": {
+              "A": 0.5126295291670805,
+              "B": 2.017080065620122,
+              "C": 0.1550997469451997
+            },
+            "gap": 0.3575297822218808,
+            "identified": false,
+            "round": 1,
+            "observed": [
+              "e0",
+              "E1"
+            ]
+          },
+          {
+            "best_model": "A",
+            "residuals": {
+              "A": 0.6167769314861729,
+              "B": 2.0676453437956153,
+              "C": 2.7546178086569553
+            },
+            "gap": 1.4508684123094424,
+            "identified": true,
+            "round": 2,
+            "observed": [
+              "e0",
+              "E1",
+              "E2"
+            ]
+          }
+        ],
+        "aopt_history": [
+          {
+            "best_model": "C",
+            "residuals": {
+              "A": 0.31239601307857273,
+              "B": 0.14163024506382133,
+              "C": 0.14132618254673637
+            },
+            "gap": 0.000304062517084952,
+            "identified": false,
+            "round": 0,
+            "observed": [
+              "e0"
+            ]
+          },
+          {
+            "best_model": "C",
+            "residuals": {
+              "A": 0.5126295291670805,
+              "B": 2.017080065620122,
+              "C": 0.1550997469451997
+            },
+            "gap": 0.3575297822218808,
+            "identified": false,
+            "round": 1,
+            "observed": [
+              "e0",
+              "E1"
+            ]
+          },
+          {
+            "best_model": "A",
+            "residuals": {
+              "A": 0.6167769314861729,
+              "B": 2.0676453437956153,
+              "C": 2.7546178086569553
+            },
+            "gap": 1.4508684123094424,
+            "identified": true,
+            "round": 2,
+            "observed": [
+              "e0",
+              "E1",
+              "E2"
+            ]
+          }
+        ],
+        "disagreement_history": [
+          {
+            "best_model": "C",
+            "residuals": {
+              "A": 0.31239601307857273,
+              "B": 0.14163024506382133,
+              "C": 0.14132618254673637
+            },
+            "gap": 0.000304062517084952,
+            "identified": false,
+            "round": 0,
+            "observed": [
+              "e0"
+            ]
+          },
+          {
+            "best_model": "A",
+            "residuals": {
+              "A": 0.463913804522806,
+              "B": 0.4760298340592222,
+              "C": 2.7538766185399113
+            },
+            "gap": 0.012116029536416217,
+            "identified": false,
+            "round": 1,
+            "observed": [
+              "e0",
+              "E2"
+            ]
+          },
+          {
+            "best_model": "A",
+            "residuals": {
+              "A": 0.6167769314861727,
+              "B": 2.0676453437956157,
+              "C": 2.7546178086569557
+            },
+            "gap": 1.4508684123094429,
+            "identified": true,
+            "round": 2,
+            "observed": [
+              "e0",
+              "E2",
+              "E1"
+            ]
+          }
+        ]
+      },
+      "mixed_absorption": {
+        "family": "D-family absorption-leaning mix",
+        "truth_params": {
+          "k_tr": 1.8,
+          "k_a": 1.0,
+          "k_10": 0.16,
+          "k_12": 0.15,
+          "k_21": 0.25,
+          "V_c": 19.5
+        },
+        "oracle_model": "A",
+        "full_residuals": {
+          "A": 0.8407677938094932,
+          "B": 2.1093724815753983,
+          "C": 2.828395920359715
+        },
+        "cartograph_history": [
+          {
+            "best_model": "B",
+            "residuals": {
+              "A": 0.28281673437839194,
+              "B": 0.11931647524726448,
+              "C": 0.16587866264008955
+            },
+            "gap": 0.04656218739282507,
+            "identified": false,
+            "round": 0,
+            "observed": [
+              "e0"
+            ]
+          },
+          {
+            "best_model": "C",
+            "residuals": {
+              "A": 0.4685118033840168,
+              "B": 2.0122607402083164,
+              "C": 0.16981289404457836
+            },
+            "gap": 0.29869890933943843,
+            "identified": false,
+            "round": 1,
+            "observed": [
+              "e0",
+              "E1"
+            ]
+          },
+          {
+            "best_model": "A",
+            "residuals": {
+              "A": 0.5598568916840101,
+              "B": 2.0554084034190327,
+              "C": 2.755605476486174
+            },
+            "gap": 1.4955515117350227,
+            "identified": true,
+            "round": 2,
+            "observed": [
+              "e0",
+              "E1",
+              "E2"
+            ]
+          }
+        ],
+        "aopt_history": [
+          {
+            "best_model": "B",
+            "residuals": {
+              "A": 0.28281673437839194,
+              "B": 0.11931647524726448,
+              "C": 0.16587866264008955
+            },
+            "gap": 0.04656218739282507,
+            "identified": false,
+            "round": 0,
+            "observed": [
+              "e0"
+            ]
+          },
+          {
+            "best_model": "C",
+            "residuals": {
+              "A": 0.4685118033840168,
+              "B": 2.0122607402083164,
+              "C": 0.16981289404457836
+            },
+            "gap": 0.29869890933943843,
+            "identified": false,
+            "round": 1,
+            "observed": [
+              "e0",
+              "E1"
+            ]
+          },
+          {
+            "best_model": "A",
+            "residuals": {
+              "A": 0.5598568916840101,
+              "B": 2.0554084034190327,
+              "C": 2.755605476486174
+            },
+            "gap": 1.4955515117350227,
+            "identified": true,
+            "round": 2,
+            "observed": [
+              "e0",
+              "E1",
+              "E2"
+            ]
+          }
+        ],
+        "disagreement_history": [
+          {
+            "best_model": "B",
+            "residuals": {
+              "A": 0.28281673437839194,
+              "B": 0.11931647524726448,
+              "C": 0.16587866264008955
+            },
+            "gap": 0.04656218739282507,
+            "identified": false,
+            "round": 0,
+            "observed": [
+              "e0"
+            ]
+          },
+          {
+            "best_model": "A",
+            "residuals": {
+              "A": 0.41703924815345106,
+              "B": 0.43559940257911994,
+              "C": 2.7553658293910925
+            },
+            "gap": 0.018560154425668884,
+            "identified": false,
+            "round": 1,
+            "observed": [
+              "e0",
+              "E2"
+            ]
+          },
+          {
+            "best_model": "A",
+            "residuals": {
+              "A": 0.5598568916840101,
+              "B": 2.0554084034190323,
+              "C": 2.755605476486174
+            },
+            "gap": 1.4955515117350222,
+            "identified": true,
+            "round": 2,
+            "observed": [
+              "e0",
+              "E2",
+              "E1"
+            ]
+          }
+        ]
+      },
+      "absorption_variant_slow": {
+        "family": "B-family slow transit",
+        "truth_params": {
+          "k_tr": 0.9,
+          "k_a": 0.95,
+          "k_e": 0.19,
+          "V": 20.5
+        },
+        "oracle_model": "B",
+        "full_residuals": {
+          "A": 2.3325966521155825,
+          "B": 0.4350737700025961,
+          "C": 3.597390658382083
+        },
+        "cartograph_history": [
+          {
+            "best_model": "C",
+            "residuals": {
+              "A": 0.3648653730294233,
+              "B": 0.16531725634916242,
+              "C": 0.1447658078120545
+            },
+            "gap": 0.020551448537107914,
+            "identified": false,
+            "round": 0,
+            "observed": [
+              "e0"
+            ]
+          },
+          {
+            "best_model": "B",
+            "residuals": {
+              "A": 2.062409832843643,
+              "B": 0.21860430017337862,
+              "C": 2.008667579346895
+            },
+            "gap": 1.7900632791735163,
+            "identified": true,
+            "round": 1,
+            "observed": [
+              "e0",
+              "E1"
+            ]
+          }
+        ],
+        "aopt_history": [
+          {
+            "best_model": "C",
+            "residuals": {
+              "A": 0.3648653730294233,
+              "B": 0.16531725634916242,
+              "C": 0.1447658078120545
+            },
+            "gap": 0.020551448537107914,
+            "identified": false,
+            "round": 0,
+            "observed": [
+              "e0"
+            ]
+          },
+          {
+            "best_model": "B",
+            "residuals": {
+              "A": 2.062409832843643,
+              "B": 0.21860430017337862,
+              "C": 2.008667579346895
+            },
+            "gap": 1.7900632791735163,
+            "identified": true,
+            "round": 1,
+            "observed": [
+              "e0",
+              "E1"
+            ]
+          }
+        ],
+        "disagreement_history": [
+          {
+            "best_model": "C",
+            "residuals": {
+              "A": 0.3648653730294233,
+              "B": 0.16531725634916242,
+              "C": 0.1447658078120545
+            },
+            "gap": 0.020551448537107914,
+            "identified": false,
+            "round": 0,
+            "observed": [
+              "e0"
+            ]
+          },
+          {
+            "best_model": "B",
+            "residuals": {
+              "A": 0.3747544971749212,
+              "B": 0.2185806458803916,
+              "C": 2.772582996317665
+            },
+            "gap": 0.1561738512945296,
+            "identified": true,
+            "round": 1,
+            "observed": [
+              "e0",
+              "E2"
+            ]
+          }
+        ]
+      },
+      "distribution_variant_subtle": {
+        "family": "C-family subtle distribution",
+        "truth_params": {
+          "k_a": 0.78,
+          "k_10": 0.17,
+          "k_12": 0.18,
+          "k_21": 0.22,
+          "V_c": 19.0
+        },
+        "oracle_model": "C",
+        "full_residuals": {
+          "A": 3.3488306527249816,
+          "B": 3.798359726162697,
+          "C": 1.5637890906889447
+        },
+        "cartograph_history": [
+          {
+            "best_model": "C",
+            "residuals": {
+              "A": 1.5667936743736102,
+              "B": 1.5254480397024772,
+              "C": 1.5002442076179445
+            },
+            "gap": 0.025203832084532696,
+            "identified": false,
+            "round": 0,
+            "observed": [
+              "e0"
+            ]
+          },
+          {
+            "best_model": "C",
+            "residuals": {
+              "A": 1.6122500817870127,
+              "B": 2.524171527628877,
+              "C": 1.5009724634120027
+            },
+            "gap": 0.11127761837500993,
+            "identified": true,
+            "round": 1,
+            "observed": [
+              "e0",
+              "E1"
+            ]
+          }
+        ],
+        "aopt_history": [
+          {
+            "best_model": "C",
+            "residuals": {
+              "A": 1.5667936743736102,
+              "B": 1.5254480397024772,
+              "C": 1.5002442076179445
+            },
+            "gap": 0.025203832084532696,
+            "identified": false,
+            "round": 0,
+            "observed": [
+              "e0"
+            ]
+          },
+          {
+            "best_model": "C",
+            "residuals": {
+              "A": 1.6122500817870127,
+              "B": 2.524171527628877,
+              "C": 1.5009724634120027
+            },
+            "gap": 0.11127761837500993,
+            "identified": true,
+            "round": 1,
+            "observed": [
+              "e0",
+              "E1"
+            ]
+          }
+        ],
+        "disagreement_history": [
+          {
+            "best_model": "C",
+            "residuals": {
+              "A": 1.5667936743736102,
+              "B": 1.5254480397024772,
+              "C": 1.5002442076179445
+            },
+            "gap": 0.025203832084532696,
+            "identified": false,
+            "round": 0,
+            "observed": [
+              "e0"
+            ]
+          },
+          {
+            "best_model": "C",
+            "residuals": {
+              "A": 3.179870684517173,
+              "B": 3.17357077113844,
+              "C": 1.5007314561065488
+            },
+            "gap": 1.6728393150318912,
+            "identified": true,
+            "round": 1,
+            "observed": [
+              "e0",
+              "E2"
+            ]
+          }
+        ]
+      }
+    },
+    "artifacts": {
+      "figure_1_rounds_heatmap": "outputs/pk_aopt_upgrade/figure_1_rounds_heatmap.png",
+      "figure_2_sequence_comparison": "outputs/pk_aopt_upgrade/figure_2_sequence_comparison.png",
+      "figure_3_gap_progress": "outputs/pk_aopt_upgrade/figure_3_gap_progress.png",
+      "benchmark_results_json": "outputs/pk_aopt_upgrade/benchmark_results.json",
+      "benchmark_summary_md": "outputs/pk_aopt_upgrade/benchmark_summary.md"
+    }
+  },
+  "pk_pairwise": {
+    "aopt_vs_disagreement": "1W / 6T / 0L",
+    "aopt_vs_cartograph": "0W / 7T / 0L"
+  },
+  "real_data": {
+    "dataset_path": "data/cvtdb_v2_0_0_no_audit.sqlite",
+    "series_rows": [
+      {
+        "series_id": 122,
+        "label": "1,2-Dichloroethane oral",
+        "oracle": "A",
+        "unresolved_dim": 0,
+        "cartograph_pick": {
+          "block": "E1",
+          "times": [
+            0.03333,
+            0.06667,
+            0.1,
+            0.19215,
+            0.21667,
+            0.26667
+          ],
+          "cartograph_score": 0.0,
+          "sigma_local": 0.0,
+          "aopt_score": 0.0,
+          "aopt_current_trace": 0.0,
+          "aopt_unresolved_dim": 0,
+          "disagreement_score": 1.9254063964710384,
+          "oracle_margin": -3.6781444465746347,
+          "identified": false
+        },
+        "aopt_pick": {
+          "block": "E1",
+          "times": [
+            0.03333,
+            0.06667,
+            0.1,
+            0.19215,
+            0.21667,
+            0.26667
+          ],
+          "cartograph_score": 0.0,
+          "sigma_local": 0.0,
+          "aopt_score": 0.0,
+          "aopt_current_trace": 0.0,
+          "aopt_unresolved_dim": 0,
+          "disagreement_score": 1.9254063964710384,
+          "oracle_margin": -3.6781444465746347,
+          "identified": false
+        },
+        "disagreement_pick": {
+          "block": "E1",
+          "times": [
+            0.03333,
+            0.06667,
+            0.1,
+            0.19215,
+            0.21667,
+            0.26667
+          ],
+          "cartograph_score": 0.0,
+          "sigma_local": 0.0,
+          "aopt_score": 0.0,
+          "aopt_current_trace": 0.0,
+          "aopt_unresolved_dim": 0,
+          "disagreement_score": 1.9254063964710384,
+          "oracle_margin": -3.6781444465746347,
+          "identified": false
+        },
+        "oracle_best_block": "E3",
+        "oracle_best_margin": 3.3076308047902288,
+        "candidate_results": [
+          {
+            "block": "E1",
+            "times": [
+              0.03333,
+              0.06667,
+              0.1,
+              0.19215,
+              0.21667,
+              0.26667
+            ],
+            "cartograph_score": 0.0,
+            "sigma_local": 0.0,
+            "aopt_score": 0.0,
+            "aopt_current_trace": 0.0,
+            "aopt_unresolved_dim": 0,
+            "disagreement_score": 1.9254063964710384,
+            "oracle_margin": -3.6781444465746347,
+            "identified": false
+          },
+          {
+            "block": "E2",
+            "times": [
+              0.36667,
+              0.41667,
+              0.5,
+              0.7778,
+              1.5
+            ],
+            "cartograph_score": 0.0,
+            "sigma_local": 0.0,
+            "aopt_score": 0.0,
+            "aopt_current_trace": 0.0,
+            "aopt_unresolved_dim": 0,
+            "disagreement_score": 0.06242062153686173,
+            "oracle_margin": -11.572456464779862,
+            "identified": false
+          },
+          {
+            "block": "E3",
+            "times": [
+              2.0,
+              2.5,
+              3.5,
+              4.0,
+              4.5
+            ],
+            "cartograph_score": 0.0,
+            "sigma_local": 0.0,
+            "aopt_score": 0.0,
+            "aopt_current_trace": 0.0,
+            "aopt_unresolved_dim": 0,
+            "disagreement_score": 0.07217878809892456,
+            "oracle_margin": 3.3076308047902288,
+            "identified": true
+          }
+        ]
+      },
+      {
+        "series_id": 120,
+        "label": "Dichloromethane oral",
+        "oracle": "A",
+        "unresolved_dim": 0,
+        "cartograph_pick": {
+          "block": "E1",
+          "times": [
+            0.03333,
+            0.06667,
+            0.1,
+            0.16667,
+            0.21667
+          ],
+          "cartograph_score": 0.0,
+          "sigma_local": 0.0,
+          "aopt_score": 0.0,
+          "aopt_current_trace": 0.0,
+          "aopt_unresolved_dim": 0,
+          "disagreement_score": 1.4866100767989838,
+          "oracle_margin": -4.636966300513322,
+          "identified": false
+        },
+        "aopt_pick": {
+          "block": "E1",
+          "times": [
+            0.03333,
+            0.06667,
+            0.1,
+            0.16667,
+            0.21667
+          ],
+          "cartograph_score": 0.0,
+          "sigma_local": 0.0,
+          "aopt_score": 0.0,
+          "aopt_current_trace": 0.0,
+          "aopt_unresolved_dim": 0,
+          "disagreement_score": 1.4866100767989838,
+          "oracle_margin": -4.636966300513322,
+          "identified": false
+        },
+        "disagreement_pick": {
+          "block": "E1",
+          "times": [
+            0.03333,
+            0.06667,
+            0.1,
+            0.16667,
+            0.21667
+          ],
+          "cartograph_score": 0.0,
+          "sigma_local": 0.0,
+          "aopt_score": 0.0,
+          "aopt_current_trace": 0.0,
+          "aopt_unresolved_dim": 0,
+          "disagreement_score": 1.4866100767989838,
+          "oracle_margin": -4.636966300513322,
+          "identified": false
+        },
+        "oracle_best_block": "E3",
+        "oracle_best_margin": 3.3567751406449915,
+        "candidate_results": [
+          {
+            "block": "E1",
+            "times": [
+              0.03333,
+              0.06667,
+              0.1,
+              0.16667,
+              0.21667
+            ],
+            "cartograph_score": 0.0,
+            "sigma_local": 0.0,
+            "aopt_score": 0.0,
+            "aopt_current_trace": 0.0,
+            "aopt_unresolved_dim": 0,
+            "disagreement_score": 1.4866100767989838,
+            "oracle_margin": -4.636966300513322,
+            "identified": false
+          },
+          {
+            "block": "E2",
+            "times": [
+              0.26667,
+              0.36667,
+              0.41667,
+              0.5,
+              1.0
+            ],
+            "cartograph_score": 0.0,
+            "sigma_local": 0.0,
+            "aopt_score": 0.0,
+            "aopt_current_trace": 0.0,
+            "aopt_unresolved_dim": 0,
+            "disagreement_score": 0.029722187519388463,
+            "oracle_margin": -10.223131789045581,
+            "identified": false
+          },
+          {
+            "block": "E3",
+            "times": [
+              1.5,
+              2.0,
+              3.0,
+              3.5,
+              4.0
+            ],
+            "cartograph_score": 0.0,
+            "sigma_local": 0.0,
+            "aopt_score": 0.0,
+            "aopt_current_trace": 0.0,
+            "aopt_unresolved_dim": 0,
+            "disagreement_score": 0.03382472052468218,
+            "oracle_margin": 3.3567751406449915,
+            "identified": true
+          }
+        ]
+      },
+      {
+        "series_id": 123,
+        "label": "Trichloroethylene oral",
+        "oracle": "C",
+        "unresolved_dim": 1,
+        "cartograph_pick": {
+          "block": "E1",
+          "times": [
+            0.03333,
+            0.06667,
+            0.1,
+            0.16667,
+            0.21667
+          ],
+          "cartograph_score": 1.1331191775833303,
+          "sigma_local": 1.0644807079432346,
+          "aopt_score": 0.5299367895226191,
+          "aopt_current_trace": 0.9983768132366642,
+          "aopt_unresolved_dim": 1,
+          "disagreement_score": 9.703794613769322,
+          "oracle_margin": 55.558382316993836,
+          "identified": true
+        },
+        "aopt_pick": {
+          "block": "E1",
+          "times": [
+            0.03333,
+            0.06667,
+            0.1,
+            0.16667,
+            0.21667
+          ],
+          "cartograph_score": 1.1331191775833303,
+          "sigma_local": 1.0644807079432346,
+          "aopt_score": 0.5299367895226191,
+          "aopt_current_trace": 0.9983768132366642,
+          "aopt_unresolved_dim": 1,
+          "disagreement_score": 9.703794613769322,
+          "oracle_margin": 55.558382316993836,
+          "identified": true
+        },
+        "disagreement_pick": {
+          "block": "E1",
+          "times": [
+            0.03333,
+            0.06667,
+            0.1,
+            0.16667,
+            0.21667
+          ],
+          "cartograph_score": 1.1331191775833303,
+          "sigma_local": 1.0644807079432346,
+          "aopt_score": 0.5299367895226191,
+          "aopt_current_trace": 0.9983768132366642,
+          "aopt_unresolved_dim": 1,
+          "disagreement_score": 9.703794613769322,
+          "oracle_margin": 55.558382316993836,
+          "identified": true
+        },
+        "oracle_best_block": "E2",
+        "oracle_best_margin": 59.27566664851537,
+        "candidate_results": [
+          {
+            "block": "E1",
+            "times": [
+              0.03333,
+              0.06667,
+              0.1,
+              0.16667,
+              0.21667
+            ],
+            "cartograph_score": 1.1331191775833303,
+            "sigma_local": 1.0644807079432346,
+            "aopt_score": 0.5299367895226191,
+            "aopt_current_trace": 0.9983768132366642,
+            "aopt_unresolved_dim": 1,
+            "disagreement_score": 9.703794613769322,
+            "oracle_margin": 55.558382316993836,
+            "identified": true
+          },
+          {
+            "block": "E2",
+            "times": [
+              0.26667,
+              0.36667,
+              0.41667,
+              0.76935,
+              1.0
+            ],
+            "cartograph_score": 0.0035698395076059525,
+            "sigma_local": 0.05974813392572151,
+            "aopt_score": 0.003545623120392638,
+            "aopt_current_trace": 0.9983768132366642,
+            "aopt_unresolved_dim": 1,
+            "disagreement_score": 1.2912069478857662,
+            "oracle_margin": 59.27566664851537,
+            "identified": true
+          },
+          {
+            "block": "E3",
+            "times": [
+              1.5,
+              2.5,
+              3.0,
+              3.5
+            ],
+            "cartograph_score": 0.0003302424264990776,
+            "sigma_local": 0.01817257346935424,
+            "aopt_score": 0.000329062712253525,
+            "aopt_current_trace": 0.9983768132366642,
+            "aopt_unresolved_dim": 1,
+            "disagreement_score": 0.26113988994246723,
+            "oracle_margin": 9.56386519534767,
+            "identified": true
+          }
+        ]
+      },
+      {
+        "series_id": 65744,
+        "label": "Chloroform oral",
+        "oracle": "A",
+        "unresolved_dim": 1,
+        "cartograph_pick": {
+          "block": "E1",
+          "times": [
+            0.03333,
+            0.06667,
+            0.13697,
+            0.16667
+          ],
+          "cartograph_score": 0.27136968214058693,
+          "sigma_local": 0.5209315522605508,
+          "aopt_score": 0.2129435061902022,
+          "aopt_current_trace": 0.9986797949377388,
+          "aopt_unresolved_dim": 1,
+          "disagreement_score": 2.2237835504235672,
+          "oracle_margin": -0.9327433030274541,
+          "identified": false
+        },
+        "aopt_pick": {
+          "block": "E1",
+          "times": [
+            0.03333,
+            0.06667,
+            0.13697,
+            0.16667
+          ],
+          "cartograph_score": 0.27136968214058693,
+          "sigma_local": 0.5209315522605508,
+          "aopt_score": 0.2129435061902022,
+          "aopt_current_trace": 0.9986797949377388,
+          "aopt_unresolved_dim": 1,
+          "disagreement_score": 2.2237835504235672,
+          "oracle_margin": -0.9327433030274541,
+          "identified": false
+        },
+        "disagreement_pick": {
+          "block": "E1",
+          "times": [
+            0.03333,
+            0.06667,
+            0.13697,
+            0.16667
+          ],
+          "cartograph_score": 0.27136968214058693,
+          "sigma_local": 0.5209315522605508,
+          "aopt_score": 0.2129435061902022,
+          "aopt_current_trace": 0.9986797949377388,
+          "aopt_unresolved_dim": 1,
+          "disagreement_score": 2.2237835504235672,
+          "oracle_margin": -0.9327433030274541,
+          "identified": false
+        },
+        "oracle_best_block": "E1",
+        "oracle_best_margin": -0.9327433030274541,
+        "candidate_results": [
+          {
+            "block": "E1",
+            "times": [
+              0.03333,
+              0.06667,
+              0.13697,
+              0.16667
+            ],
+            "cartograph_score": 0.27136968214058693,
+            "sigma_local": 0.5209315522605508,
+            "aopt_score": 0.2129435061902022,
+            "aopt_current_trace": 0.9986797949377388,
+            "aopt_unresolved_dim": 1,
+            "disagreement_score": 2.2237835504235672,
+            "oracle_margin": -0.9327433030274541,
+            "identified": false
+          },
+          {
+            "block": "E2",
+            "times": [
+              0.26667,
+              0.31667,
+              0.36667,
+              0.5
+            ],
+            "cartograph_score": 0.0005537414960158984,
+            "sigma_local": 0.023531712560200514,
+            "aopt_score": 0.0005519751085028002,
+            "aopt_current_trace": 0.9986797949377388,
+            "aopt_unresolved_dim": 1,
+            "disagreement_score": 0.19874802408645983,
+            "oracle_margin": -15.792255350713098,
+            "identified": false
+          },
+          {
+            "block": "E3",
+            "times": [
+              0.74989,
+              1.5,
+              2.0
+            ],
+            "cartograph_score": 0.00027447375205466996,
+            "sigma_local": 0.01656724938107319,
+            "aopt_score": 0.00027367448987747345,
+            "aopt_current_trace": 0.9986797949377388,
+            "aopt_unresolved_dim": 1,
+            "disagreement_score": 0.04710603364986927,
+            "oracle_margin": -19.205632228320432,
+            "identified": false
+          }
+        ]
+      }
+    ],
+    "skipped": [],
+    "degenerate_series_count": 2,
+    "aopt_vs_cartograph": "0W / 4T / 0L",
+    "aopt_vs_disagreement": "0W / 4T / 0L",
+    "mean_oracle_margin": {
+      "cartograph": 11.577632066719605,
+      "aopt": 11.577632066719605,
+      "disagreement": 11.577632066719605
+    }
+  },
+  "failure": {
+    "raw_sequence": [
+      "E1",
+      "E2",
+      "E4",
+      "E5",
+      "E3"
+    ],
+    "aopt_sequence": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5"
+    ],
+    "scenario_rows": [
+      {
+        "name": "timevarying_strong",
+        "type": "failure",
+        "raw_final_identified": false,
+        "aopt_final_identified": false,
+        "raw_final_best_model": "A",
+        "aopt_final_best_model": "A",
+        "raw_final_norm_resid": 0.3403814952960005,
+        "aopt_final_norm_resid": 0.3403814952960005,
+        "raw_final_gap": 0.5625769700416179,
+        "aopt_final_gap": 0.5625769700416179
+      },
+      {
+        "name": "saturable_elimination",
+        "type": "failure",
+        "raw_final_identified": false,
+        "aopt_final_identified": false,
+        "raw_final_best_model": "B",
+        "aopt_final_best_model": "B",
+        "raw_final_norm_resid": 0.2600623417066938,
+        "aopt_final_norm_resid": 0.2600623417066938,
+        "raw_final_gap": 0.7739333252467204,
+        "aopt_final_gap": 0.7739333252467204
+      },
+      {
+        "name": "enterohepatic_recirculation",
+        "type": "failure",
+        "raw_final_identified": false,
+        "aopt_final_identified": false,
+        "raw_final_best_model": "A",
+        "aopt_final_best_model": "A",
+        "raw_final_norm_resid": 0.32460865561611485,
+        "aopt_final_norm_resid": 0.32460865561611485,
+        "raw_final_gap": 0.6057064744381622,
+        "aopt_final_gap": 0.6057064744381622
+      },
+      {
+        "name": "control_in_library",
+        "type": "control",
+        "raw_final_identified": true,
+        "aopt_final_identified": true,
+        "raw_final_best_model": "B",
+        "aopt_final_best_model": "B",
+        "raw_final_norm_resid": 0.1343837552000246,
+        "aopt_final_norm_resid": 0.1343837552000246,
+        "raw_final_gap": 1.3003161779794299,
+        "aopt_final_gap": 1.3003161779794299
+      }
+    ],
+    "raw_refusal_ok": true,
+    "aopt_refusal_ok": true,
+    "raw_control_ok": true,
+    "aopt_control_ok": true
+  },
+  "artifacts": {
+    "figure_1_cross_benchmark": "outputs/aopt_pivot/figure_1_cross_benchmark.png"
+  }
+}

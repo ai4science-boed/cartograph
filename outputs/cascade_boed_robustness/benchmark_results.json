@@ -1,0 +1,378 @@
+{
+  "timestamp_utc": "2026-03-28T07:09:50.353171+00:00",
+  "dimensions": [
+    2,
+    4,
+    8,
+    16
+  ],
+  "n_seeds": 24,
+  "rounds": 3,
+  "timing_repeats": 300,
+  "results": {
+    "2": {
+      "dimension": 2,
+      "n_seeds": 24,
+      "n_truths": 6,
+      "n_trials": 144,
+      "initial_unresolved_dim": 1,
+      "initial_tau": 0.0776468813274094,
+      "initial_singular_values": [
+        0.388234406637047,
+        0.05749795949312923
+      ],
+      "summary": {
+        "cartograph": {
+          "mean_regret": 0.05179013574143166,
+          "se_regret": 0.004925950050666414,
+          "mean_hidden_best_match": 0.4444444444444444,
+          "se_hidden_best_match": 0.04155319955593143,
+          "mean_final_mse": 0.04598011641611844,
+          "se_final_mse": 0.004330990625665915,
+          "sequence": [
+            "E6",
+            "E4",
+            "E5",
+            "E8",
+            "E2",
+            "E7",
+            "E3",
+            "E1"
+          ],
+          "avg_sequence_ms": 0.20009287356515415,
+          "avg_score_ms": 0.005558135376809837
+        },
+        "aopt": {
+          "mean_regret": 0.05179013574143166,
+          "se_regret": 0.004925950050666414,
+          "mean_hidden_best_match": 0.4444444444444444,
+          "se_hidden_best_match": 0.04155319955593143,
+          "mean_final_mse": 0.04598011641611844,
+          "se_final_mse": 0.004330990625665915,
+          "sequence": [
+            "E6",
+            "E4",
+            "E5",
+            "E8",
+            "E2",
+            "E7",
+            "E3",
+            "E1"
+          ],
+          "avg_sequence_ms": 1.2319970902656983,
+          "avg_score_ms": 0.0342221413962694
+        },
+        "disagreement": {
+          "mean_regret": 0.05179013574143166,
+          "se_regret": 0.004925950050666414,
+          "mean_hidden_best_match": 0.4444444444444444,
+          "se_hidden_best_match": 0.04155319955593143,
+          "mean_final_mse": 0.045980116416118454,
+          "se_final_mse": 0.004330990625665916,
+          "sequence": [
+            "E6",
+            "E5",
+            "E4",
+            "E8",
+            "E2",
+            "E7",
+            "E3",
+            "E1"
+          ],
+          "avg_sequence_ms": 0.009126193205399128,
+          "avg_score_ms": 0.00025350536681664244
+        }
+      },
+      "pairwise_counts": {
+        "aopt_vs_cartograph": {
+          "wins": 0,
+          "ties": 144,
+          "losses": 0
+        },
+        "aopt_vs_disagreement": {
+          "wins": 0,
+          "ties": 144,
+          "losses": 0
+        }
+      }
+    },
+    "4": {
+      "dimension": 4,
+      "n_seeds": 24,
+      "n_truths": 6,
+      "n_trials": 144,
+      "initial_unresolved_dim": 3,
+      "initial_tau": 0.07004128300114068,
+      "initial_singular_values": [
+        0.3502064150057034,
+        0.06937170967159734,
+        0.0138783313545339,
+        0.001712049407575878
+      ],
+      "summary": {
+        "cartograph": {
+          "mean_regret": 0.3118713049564613,
+          "se_regret": 0.007009743557357283,
+          "mean_hidden_best_match": 0.0,
+          "se_hidden_best_match": 0.0,
+          "mean_final_mse": 0.331537549618167,
+          "se_final_mse": 0.02486541675722347,
+          "sequence": [
+            "E6",
+            "E5",
+            "E8",
+            "E7",
+            "E4",
+            "E3",
+            "E2",
+            "E1"
+          ],
+          "avg_sequence_ms": 0.19895651676051784,
+          "avg_score_ms": 0.005526569910014384
+        },
+        "aopt": {
+          "mean_regret": 0.4182361186532719,
+          "se_regret": 0.02892939059023048,
+          "mean_hidden_best_match": 0.09027777777777778,
+          "se_hidden_best_match": 0.023964965777906952,
+          "mean_final_mse": 0.2846233720641594,
+          "se_final_mse": 0.02267728517960185,
+          "sequence": [
+            "E5",
+            "E6",
+            "E7",
+            "E8",
+            "E4",
+            "E3",
+            "E2",
+            "E1"
+          ],
+          "avg_sequence_ms": 1.393693163311885,
+          "avg_score_ms": 0.0387136989808857
+        },
+        "disagreement": {
+          "mean_regret": 0.3118713049564613,
+          "se_regret": 0.007009743557357283,
+          "mean_hidden_best_match": 0.0,
+          "se_hidden_best_match": 0.0,
+          "mean_final_mse": 0.331537549618167,
+          "se_final_mse": 0.02486541675722347,
+          "sequence": [
+            "E6",
+            "E5",
+            "E8",
+            "E4",
+            "E7",
+            "E3",
+            "E2",
+            "E1"
+          ],
+          "avg_sequence_ms": 0.014943139904062264,
+          "avg_score_ms": 0.0004150872195572851
+        }
+      },
+      "pairwise_counts": {
+        "aopt_vs_cartograph": {
+          "wins": 73,
+          "ties": 0,
+          "losses": 71
+        },
+        "aopt_vs_disagreement": {
+          "wins": 73,
+          "ties": 0,
+          "losses": 71
+        }
+      }
+    },
+    "8": {
+      "dimension": 8,
+      "n_seeds": 24,
+      "n_truths": 6,
+      "n_trials": 144,
+      "initial_unresolved_dim": 6,
+      "initial_tau": 0.0671712235980786,
+      "initial_singular_values": [
+        0.335856117990393,
+        0.09346257709249528,
+        0.019400705915699704,
+        0.00066778454849847,
+        5.369044956608457e-08,
+        4.751632647271536e-10,
+        1.7273459249997678e-10,
+        1.316623446146727e-12
+      ],
+      "summary": {
+        "cartograph": {
+          "mean_regret": 19.940413234919518,
+          "se_regret": 3.642775186220176,
+          "mean_hidden_best_match": 0.020833333333333332,
+          "se_hidden_best_match": 0.011943721631153599,
+          "mean_final_mse": 0.1479273481538792,
+          "se_final_mse": 0.010098488696455892,
+          "sequence": [
+            "E6",
+            "E5",
+            "E8",
+            "E7",
+            "E4",
+            "E3",
+            "E2",
+            "E1"
+          ],
+          "avg_sequence_ms": 0.5555808366140506,
+          "avg_score_ms": 0.01543280101705696
+        },
+        "aopt": {
+          "mean_regret": 0.010249484138958962,
+          "se_regret": 0.0019053618531192746,
+          "mean_hidden_best_match": 0.6527777777777778,
+          "se_hidden_best_match": 0.03981240543717866,
+          "mean_final_mse": 0.14792734815151345,
+          "se_final_mse": 0.010098488696486841,
+          "sequence": [
+            "E8",
+            "E5",
+            "E6",
+            "E7",
+            "E4",
+            "E3",
+            "E2",
+            "E1"
+          ],
+          "avg_sequence_ms": 9.644228990146075,
+          "avg_score_ms": 0.26789524972627987
+        },
+        "disagreement": {
+          "mean_regret": 19.940413234919518,
+          "se_regret": 3.642775186220176,
+          "mean_hidden_best_match": 0.020833333333333332,
+          "se_hidden_best_match": 0.011943721631153599,
+          "mean_final_mse": 0.1479273481538792,
+          "se_final_mse": 0.010098488696455892,
+          "sequence": [
+            "E6",
+            "E5",
+            "E8",
+            "E7",
+            "E4",
+            "E3",
+            "E2",
+            "E1"
+          ],
+          "avg_sequence_ms": 0.013572456664405763,
+          "avg_score_ms": 0.0003770126851223823
+        }
+      },
+      "pairwise_counts": {
+        "aopt_vs_cartograph": {
+          "wins": 129,
+          "ties": 0,
+          "losses": 15
+        },
+        "aopt_vs_disagreement": {
+          "wins": 129,
+          "ties": 0,
+          "losses": 15
+        }
+      }
+    },
+    "16": {
+      "dimension": 16,
+      "n_seeds": 24,
+      "n_truths": 6,
+      "n_trials": 144,
+      "initial_unresolved_dim": 12,
+      "initial_tau": 0.058903424928246906,
+      "initial_singular_values": [
+        0.29451712464123453,
+        0.1995869203091715,
+        0.022628112148108122,
+        0.0012309795377654679,
+        1.5807583290668456e-08,
+        2.820945273818071e-10,
+        1.6670056517406577e-11,
+        3.946142108111154e-12,
+        7.64529510822396e-14,
+        4.883439470631323e-14,
+        4.172842887353359e-14,
+        4.7720123886788106e-15,
+        1.5228174094997716e-16,
+        1.10897383320554e-18
+      ],
+      "summary": {
+        "cartograph": {
+          "mean_regret": 2.8321646476256066,
+          "se_regret": 0.4842520170739264,
+          "mean_hidden_best_match": 0.06944444444444445,
+          "se_hidden_best_match": 0.021257974822832024,
+          "mean_final_mse": 80.11592331686433,
+          "se_final_mse": 13.580129455686615,
+          "sequence": [
+            "E6",
+            "E8",
+            "E5",
+            "E7",
+            "E4",
+            "E3",
+            "E2",
+            "E1"
+          ],
+          "avg_sequence_ms": 1.1472926134592853,
+          "avg_score_ms": 0.03186923926275793
+        },
+        "aopt": {
+          "mean_regret": 0.014246858322691609,
+          "se_regret": 0.0026279650581979533,
+          "mean_hidden_best_match": 0.7222222222222222,
+          "se_hidden_best_match": 0.037455547914624555,
+          "mean_final_mse": 83.98563341637737,
+          "se_final_mse": 12.699807817621029,
+          "sequence": [
+            "E8",
+            "E6",
+            "E7",
+            "E5",
+            "E4",
+            "E3",
+            "E2",
+            "E1"
+          ],
+          "avg_sequence_ms": 46.771773233194835,
+          "avg_score_ms": 1.299215923144301
+        },
+        "disagreement": {
+          "mean_regret": 2.8321646476256066,
+          "se_regret": 0.4842520170739264,
+          "mean_hidden_best_match": 0.06944444444444445,
+          "se_hidden_best_match": 0.021257974822832024,
+          "mean_final_mse": 80.11592331686433,
+          "se_final_mse": 13.580129455686615,
+          "sequence": [
+            "E6",
+            "E8",
+            "E5",
+            "E7",
+            "E4",
+            "E3",
+            "E2",
+            "E1"
+          ],
+          "avg_sequence_ms": 0.01942621657993489,
+          "avg_score_ms": 0.0005396171272204136
+        }
+      },
+      "pairwise_counts": {
+        "aopt_vs_cartograph": {
+          "wins": 120,
+          "ties": 0,
+          "losses": 24
+        },
+        "aopt_vs_disagreement": {
+          "wins": 120,
+          "ties": 0,
+          "losses": 24
+        }
+      }
+    }
+  }
+}
